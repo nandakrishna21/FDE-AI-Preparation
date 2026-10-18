@@ -4,19 +4,33 @@ A complete 90-day mentor system for learning **Fullstack Development (FDE) + AI 
 
 ## 🚀 Live Website
 
-Open `index.html` in your browser, or enable GitHub Pages:
-**Settings → Pages → Branch: main → / (root) → Save**
+**https://nandakrishna21.github.io/FDE-AI-Preparation/**
 
-Then visit: `https://nandakrishna21.github.io/FDE-AI-Preparation/`
+Deployed automatically from `app/` via GitHub Actions (`.github/workflows/deploy.yml`).
 
 ## 📁 What's Inside
 
-### Website
-| File | Purpose |
-|---|---|
-| `index.html` | Main website with all sections |
-| `style.css` | Styling (responsive + modern) |
-| `app.js` | Mobile nav + smooth scroll |
+### Interactive Learning App (`app/`)
+A React + TypeScript + Vite single-page app:
+- **Dashboard** — XP, level, streak, today's plan, quick actions
+- **Roadmap** — all 9 weeks / 60 days at a glance
+- **Lesson** — per-day tasks rendered from `60_DAY_PLAN.md`
+- **Quiz** — MCQ practice for 8 subjects (Quant, Reasoning, English, GK, JS, React, Backend, AI)
+- **Practice** — 10 runnable JS coding exercises with instant tests
+- **Progress** — completion, XP, streak, per-subject quiz scores
+- **Library** — all mentor markdown rendered in-app
+
+Run it:
+
+```bash
+cd app
+bun install
+bun run dev      # local dev server
+bun run build    # production build -> app/dist
+```
+
+### Legacy static site
+`index.html`, `files.html`, `style.css`, `docs.css`, `app.js`, `files-app.js`, `theme.js` (kept for reference).
 
 ### Mentor Files (`mentor-files/`)
 | File | Purpose |
