@@ -26,8 +26,13 @@ export default function Lesson() {
 
   const studyFiles =
     day.tasks.length === 0
-      ? []
+      ? [
+          { file: 'DAILY_RESOURCES.md', label: '📚 Daily Resources (Day 1–60)' },
+          { file: '60_DAY_PLAN.md', label: '📅 Full 60-Day Plan' },
+          { file: 'FREE_RESOURCES.md', label: '🎓 Free Video + Sites' },
+        ]
       : [
+          { file: 'DAILY_RESOURCES.md', label: '📚 Daily Resources (Day 1–60)' },
           { file: '60_DAY_PLAN.md', label: '📅 Full 60-Day Plan' },
           { file: 'TECH_PROJECTS.md', label: '💻 Tech Projects' },
           { file: 'RESOURCE_HUB.md', label: '🔗 Resource Hub' },

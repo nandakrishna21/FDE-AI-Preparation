@@ -10,6 +10,7 @@ export const MENTOR_FILES: MentorFile[] = [
   { file: 'WEEK_01_PLAN.md', label: 'Week 01 Plan', icon: '🗓️', group: 'Plan' },
   { file: 'DAY_1_ACTION_PLAN.md', label: 'Day 1 Action Plan', icon: '▶️', group: 'Plan' },
   { file: 'DAILY_TASK_TEMPLATE.md', label: 'Daily Task Template', icon: '📋', group: 'Plan' },
+  { file: 'DAILY_RESOURCES.md', label: 'Daily Resources (Day 1–60)', icon: '📚', group: 'Plan' },
   { file: 'GOVT_SYLLABUS_SUMMARY.md', label: 'Govt Syllabus Summary', icon: '🏛️', group: 'Govt' },
   { file: 'TECH_PROJECTS.md', label: 'Tech Projects', icon: '💻', group: 'Tech' },
   { file: 'RESOURCE_HUB.md', label: 'Resource Hub', icon: '🔗', group: 'Tech' },
