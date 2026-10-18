@@ -703,3 +703,50 @@ body {
         justify-content: center;
     }
 }
+
+/* Clickable Card Links */
+.card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    position: relative;
+}
+
+.card-link:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.card-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    margin-top: 0.9rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--primary);
+    transition: gap 0.25s ease;
+}
+
+.card-link:hover .card-cta {
+    gap: 0.65rem;
+}
+
+.subject-card.card-link,
+.tracker-card.card-link,
+.stack-card.card-link,
+.project-card.card-link {
+    display: block;
+}
+
+.doc-filename {
+    font-size: 1.15rem;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
