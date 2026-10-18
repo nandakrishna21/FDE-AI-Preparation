@@ -1,33 +1,28 @@
-# ERROR_NOTEBOOK.md
+# Error Notebook
 
-# ERROR_NOTEBOOK
-
-Log **EVERY** mistake same day. Don't just write "wrong". Find **WHY** & **HOW** to fix.
-
-**Rule:** If you don't write the fix, you'll repeat it.
+> Log **every** mistake the same day. Never write just "wrong" — find **why** and **how to fix**.
+> If you don't write the fix, you will repeat it.
 
 ---
 
-## FORMAT TO FOLLOW
+## Entry Format
 
 ```
-DATE: DD-MM-YYYY
-TYPE: Govt (Quant/Reasoning/English/GK/CA) | Tech (HTML/CSS/JS/TS/React/Node/API/Git)
-QUESTION/ERROR: Exact question OR exact error message
-YOUR ANSWER/APPROACH: What you did
-CORRECT ANSWER/SOLUTION: Right way
-ROOT CAUSE: Silly calc / Concept gap / Typo / Logic missed
-FIX ACTION: 1–2 line action
-REVISION DONE ON: DD-MM-YYYY (tick when revised)
+DATE:       __-__-____
+TYPE:       Govt (Quant / Reasoning / English / GK / CA)  |  Tech (HTML/CSS/JS/TS/React/Node)
+QUESTION:   exact question OR exact error message
+MY ANSWER:  what I did
+CORRECT:    the right answer / approach
+ROOT CAUSE: silly calc | concept gap | typo | logic missed
+FIX:        one-line action
+REVISED ON: date (tick when re-solved correctly)
 ```
 
 ---
 
-## ENTRIES
+## Govt Errors
 
-### GOVT ERRORS
-
-| S.No | Date | Type | Question/Error | Your Ans | Correct Ans | Root Cause | Fix Action | Revised(Y/N) |
+| # | Date | Type | Question | My Ans | Correct | Root cause | Fix | Revised |
 |---|---|---|---|---|---|---|---|---|
 | 1 | | | | | | | | [ ] |
 | 2 | | | | | | | | [ ] |
@@ -35,52 +30,46 @@ REVISION DONE ON: DD-MM-YYYY (tick when revised)
 | 4 | | | | | | | | [ ] |
 | 5 | | | | | | | | [ ] |
 
-*(Add more rows as you go)*
-
 ---
 
-### TECH ERRORS (CODING BUGS)
+## Tech Errors
 
-| S.No | Date | Topic | Error Message | File/Path | Cause | Fix | Revised |
+| # | Date | Topic | Error message | File | Cause | Fix | Revised |
 |---|---|---|---|---|---|---|---|
 | 1 | | | | | | | [ ] |
 | 2 | | | | | | | [ ] |
 | 3 | | | | | | | [ ] |
-| 4 | | | | | | | [ ] |
-| 5 | | | | | | | [ ] |
 
-**Examples:**
+**Common examples**
 - `Uncaught TypeError: Cannot read properties of null`
-- `Module not found: Error: Can't resolve...`
+- `Module not found: Can't resolve ...`
 - `Type 'string' is not assignable to type 'number'`
 - `CORS policy blocked`
 - `ENOENT: no such file or directory`
 
 ---
 
-## WEEKLY ERROR REVISION
+## Weekly Error Revision
 
-**EVERY SUNDAY:** Pick **TOP 5 REPEATED** errors & re-solve from scratch.
+Pick the **top 5 repeated** errors every Sunday and re-solve from scratch.
 
-- [ ] Week1 Done
-- [ ] Week2 Done
-- [ ] Week3 Done
-- [ ] Week4 Done
-- [ ] Week5 Done
-- [ ] Week6 Done
-- [ ] Week7 Done
-- [ ] Week8 Done
-- [ ] Week9 Done
-- [ ] Week10 Done
-- [ ] Week11 Done
-- [ ] Week12 Done
-- [ ] Week13 Done
+| Week | Done |
+|---|---|
+| 1 | [ ] |
+| 2 | [ ] |
+| 3 | [ ] |
+| 4 | [ ] |
+| 5 | [ ] |
+| 6 | [ ] |
+| 7 | [ ] |
+| 8 | [ ] |
+| 9 | [ ] |
+| 10 | [ ] |
+| 11 | [ ] |
+| 12 | [ ] |
+| 13 | [ ] |
 
 ---
 
-## GOLDEN RULE
-
-**"Never close an error until you can explain the fix to yourself in 1 line."**
-
-If same error appears **3 times** -> Make a flashcard for it.
-
+> **Golden rule:** Never close an error until you can explain the fix in one line.
+> Same error 3 times? Turn it into a flashcard.

@@ -1,56 +1,50 @@
-# DAILY_LOG.md
+# Daily Log
 
-# DAILY_LOG.md
+> Two honest lines a day. This shows the truth your trackers can't.
 
-Write 2–4 honest lines daily. Helps track energy + reality.
-
-**Date:** DD-MM-YYYY | **Day #: __** | **Day Name:** __
+**Date:** __ / __ / ____  ·  **Day #:** ___  ·  **Week:** ___
 
 ---
 
-## LOG ENTRIES
+## Entry Format
 
-### FORMAT
 ```
-DD-MM-YYYY | Day X
-- Done: Govt + Tech + Practice summary
-- Missed/Short: What fell short & reason
-- Focus: Main win
-- Next: Top 1 thing for tomorrow
-- Mood: 1–10
+Done:        what you actually finished today
+Short:       what fell short + why
+Win:         the single best moment
+Next:        top focus for tomorrow
+Energy (1–5):
 ```
 
 ---
 
-## ENTRIES
+## Log
 
-| Date | Day | Done | Missed | Win | Next Focus | Mood(1–10) | Hours |
-|---|---|---|---|---|---|---|---|
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
-
-*(Keep adding daily)*
-
----
-
-## WEEKLY SUMMARY (Fill Every Sunday)
-
-**Week #: __** | **Dates:** __ to __
-
-- **Days Hit >=8h:** __/7
-- **Govt Practice:** Questions solved __, Accuracy __%
-- **Tech:** Project worked on: __, Git pushes: __
-- **Biggest Win:** __________________
-- **Biggest Blocker:** __________________
-- **Fix for next week:** __________________
+| Day | Done | Missed / Short | Win | Next focus | Energy |
+|---|---|---|---|---|---|
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| 4 | | | | | |
+| 5 | | | | | |
+| 6 | | | | | |
+| 7 | | | | | |
 
 ---
 
-## MOTIVATION REMINDER
+## Weekly Summary (every Sunday)
 
-*"Small steps daily > rare big steps. Notifications will come. Your job is to be ready when they do."*
+| Field | This Week |
+|---|---|
+| Days ≥8h | ___ / 7 |
+| Govt questions | ___ (accuracy ___%) |
+| Tech progress | ___ |
+| Commits pushed | ___ |
+| Biggest win | ___ |
+| Biggest blocker | ___ |
+| Fix for next week | ___ |
 
-Consistency beats motivation every single time.
+---
 
+> **"Small steps daily > rare big steps."**
+> Notifications are coming. Your job is readiness through consistency.

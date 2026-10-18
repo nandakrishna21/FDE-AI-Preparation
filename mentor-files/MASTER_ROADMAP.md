@@ -1,114 +1,119 @@
-# MASTER_ROADMAP.md
+# Master Roadmap — FDE + AI + Govt Exams
 
-# MASTER ROADMAP: FDE + AI + Govt Exams (90 Days)
+> **One plan. Two goals. 90 days.**
+> Learn Fullstack Development (FDE) + AI Engineering from **absolute zero** while preparing for **SSC CGL, All Bank Exams & UPSC APFC**.
 
-**Goal:** Learn FDE + AI Engineering from scratch while preparing for SSC CGL, All Bank Exams & UPSC APFC with a balanced 10-hour/day plan.
-
-**Start Date:** [Fill on Day 1]
-**Target:** Consistency > Perfection | Learning + Practicing Together
-
----
-
-## 1) CORE OBJECTIVE
-
-- Build rock-solid basics in **Quant, Reasoning, English, GK/Current Affairs**
-- Master **FDE Stack**: HTML, CSS, JS, TypeScript, React + Vite, Node.js + Express, SQL (SQLite)
-- Learn **AI Engineering**: Prompting, LLM APIs, RAG, AI Agents, MCP Basics
-- Create a **GitHub Portfolio** with 4–5 AI-powered projects
-- Build an exam revision system using PYQs + Error Notebook + Weak Topics
+| | |
+|---|---|
+| **Start Date** | Fill on Day 1 |
+| **Daily Time** | 10 hours (minimum viable: 4 hours) |
+| **Stack** | Vite + React + TypeScript + Node.js + Express + SQLite |
+| **AI Layer** | Prompting → OpenRouter API → RAG → Agents → MCP |
+| **Rule** | Consistency > Perfection |
 
 ---
 
-## 2) TIME BLOCK (10 HOURS/DAY)
+## 1. Core Objective
 
-| Block | Time | Track | Purpose |
+- Build rock-solid basics in **Quant, Reasoning, English, GK & Current Affairs**
+- Master the **FDE stack**: HTML → CSS → JS → TypeScript → React → Node/Express → SQL
+- Learn **AI Engineering**: prompting, LLM APIs, RAG, agents, MCP
+- Ship a **GitHub portfolio** of 4–7 real projects
+- Build a **revision machine**: PYQs + Error Notebook + Weak Topics
+
+---
+
+## 2. Daily Time Blocks (10 Hours)
+
+| Block | Time | Track | Focus |
 |---|---|---|---|
-| **BLOCK 1 – Govt Fresh Mind** | 05:00 – 08:00 (3 hrs) | Govt Core (Learning) | New Topic: Quant/Reasoning/English/GK. Focus on clearing basics |
-| **BLOCK 2 – Tech Morning** | 09:00 – 12:00 (3 hrs) | FDE + AI (Learning + Coding) | Read + Code together. Apply immediately by building |
-| **BLOCK 3 – Govt Practice** | 13:00 – 15:00 (2 hrs) | Govt Practice | PYQs, Topic-wise, Timed sets. Fix every wrong one |
-| **BLOCK 4 – Tech + Dual Revision** | 16:00 – 18:00 (2 hrs) | Project + Revision | Build project + Revise Govt weak topics + Update all logs |
+| **1 — Govt Fresh Mind** | 05:00–08:00 (3h) | Govt Learning | New topic: Quant / Reasoning / English / GK |
+| **2 — Tech Morning** | 09:00–12:00 (3h) | FDE + AI | Read + code together. Build immediately |
+| **3 — Govt Practice** | 13:00–15:00 (2h) | Govt Practice | PYQs, topic sets, fix every wrong |
+| **4 — Tech + Revision** | 16:00–18:00 (2h) | Build + Revise | Project work + weak topics + logs |
 
-**Total: 10 Hours**
-
-> *Shift by 15–30 mins if needed. Don't skip blocks entirely. Do minimum version if low on energy.*
+> **Low-energy day?** Do Blocks 1 + 2 + 15 min logs. Never zero.
 
 ---
 
-## 3) TECH STACK (RECOMMENDED)
+## 3. Recommended Stack
 
-**Chosen:** `Vite + React + TypeScript + Node.js + Express + SQLite`
-
-- **Reason:** One language (JS/TS) for frontend+backend, easy to add AI, minimal setup, beginner-friendly, high FDE relevance
-- **AI Tools:** [OpenRouter](https://www.openrouter.ai/) (Free credits available) – use for LLM calls
-- **Tools:** VS Code, Git, Node.js (LTS), Postman (mental check) or browser
-
----
-
-## 4) 90-DAY PHASE WISE PLAN
-
-### PHASE 1: FOUNDATION (Days 1–15) | CONSISTENCY
-- **Govt:** Syllabus mapping, Reasoning basics, Quant basics, English grammar, CA habit
-- **Tech:** Git+CLI, HTML/CSS, JS Fundamentals
-- **Goal:** Build 10-hour habit + first Git push
-
-### PHASE 2: CORE BUILDING (Days 16–45) | LEARN BY DOING
-- **Govt:** Mixed practice, PYQs daily, Error Notebook strict
-- **Tech:** JS Deep, TypeScript, React + Vite, First UI Projects
-- **Goal:** 2–3 GitHub repos + rising accuracy
-
-### PHASE 3: FULLSTACK + AI (Days 46–75) | CONNECT EVERYTHING
-- **Govt:** Sectional balance, fix weak list, timed practice
-- **Tech:** Node+Express, SQLite, Connect Fullstack, AI Chatbot with OpenRouter
-- **Goal:** Fullstack App + AI Chatbot live on GitHub
-
-### PHASE 4: RAG + AGENTS + POLISH (Days 76–90) | PORTFOLIO PUSH
-- **Govt:** Full revision of ERROR_NOTEBOOK + WEAK_TOPICS, mock-style sets
-- **Tech:** RAG (DocuQ&A), Mini AI Todo Agent, MCP intro, Portfolio polish
-- **Goal:** 4–5 solid projects + exam-focused revision system
+| Layer | Technology | Why |
+|---|---|---|
+| **Frontend** | HTML, CSS, JS, TypeScript, React + Vite | One language end-to-end |
+| **Backend** | Node.js + Express | Same language, gentle curve |
+| **Database** | SQLite → PostgreSQL later | Zero-setup start |
+| **AI** | OpenRouter API | Free credits, many models |
+| **Tools** | VS Code, Git, Node.js (LTS) | Industry standard |
 
 ---
 
-## 5) SUCCESS RULES
+## 4. 90-Day Phase Plan
 
-- **Code > Watch:** 20% consume, 80% build/type
-- **Fix same day:** Log every wrong MCQ + every bug in ERROR_NOTEBOOK
-- **Push daily:** Commit + push to GitHub (even tiny change)
-- **Weak-first:** Always pick from WEAK_TOPICS.md in Block 3–4
-- **Overlap smart:** Use same notes for SSC/Bank/APFC where topics match
-- **Energy-based:** Do "Minimum Viable" version on low-energy days
-- **21-Day Rule:** Focus on hitting >=8 hours for first 21 days – habit locks in
-- **Revision is non-negotiable:** 15–30 min of revision in Block 4 daily
+### Phase 1 — Foundation (Days 1–15) · Build the Habit
+- **Govt:** Syllabus mapping, Reasoning basics, Quant basics, English grammar, daily CA
+- **Tech:** Git + CLI, HTML/CSS, JS fundamentals
+- **Output:** 10-hour habit locked + first GitHub push
+
+### Phase 2 — Core Building (Days 16–45) · Learn by Doing
+- **Govt:** Mixed practice, daily PYQs, strict Error Notebook
+- **Tech:** JS deep dive, TypeScript, React + Vite, first UI projects
+- **Output:** 2–3 repos + rising accuracy
+
+### Phase 3 — Fullstack + AI (Days 46–75) · Connect Everything
+- **Govt:** Sectional balance, weak-list fixing, timed practice
+- **Tech:** Node + Express, SQLite, fullstack app, AI chatbot
+- **Output:** Fullstack app + AI chatbot on GitHub
+
+### Phase 4 — RAG + Agents + Polish (Days 76–90) · Portfolio Push
+- **Govt:** Revise Error Notebook + Weak Topics, mock-style sets
+- **Tech:** RAG (DocuQ&A), AI Todo Agent, MCP intro, portfolio polish
+- **Output:** 4–7 projects + a revision system you can keep running
 
 ---
 
-## 5B) WEEKLY RHYTHM
+## 5. Weekly Rhythm
 
-| Day | Govt Focus | Tech Focus | Special |
+| Day | Govt | Tech | Extra |
 |---|---|---|---|
-| **Mon** | Top HIGH weak Govt topic | New tech concept + code | Push commit |
-| **Tue** | Next weak Govt topic | Continue tech | CA 20 min |
-| **Wed** | Mixed Govt practice | Project work | Fix errors |
-| **Thu** | New Govt topic | New tech concept | CA 20 min |
+| **Mon** | Top weak topic | New concept | CA 20 min |
+| **Tue** | Next weak topic | Continue | CA 20 min |
+| **Wed** | Mixed practice | Project work | Fix errors |
+| **Thu** | New topic | New concept | CA 20 min |
 | **Fri** | PYQs heavy | Project work | Push + README |
 | **Sat** | Sectional mix + Computer | Project polish | 1 mini mock |
-| **Sun** | Timed mock + Error review | Rest + logs | Weekly review |
+| **Sun** | Timed mock + review | Rest + logs | Weekly review |
 
 ---
 
-## 6) FILES IN THIS SYSTEM
+## 6. Success Rules
+
+1. **Code > Watch** — 20% consume, 80% build
+2. **Fix same day** — every wrong MCQ and bug goes in the Error Notebook
+3. **Push daily** — one commit per day, even tiny
+2. **Weak-first** — always pick from Weak Topics in Blocks 3 & 4
+3. **Overlap smart** — one set of notes for SSC + Bank + APFC
+4. **Energy-based** — do the minimum version on bad days, never zero
+- **21-Day Rule:** hit ≥8 hours for 21 straight days — then it's automatic
+- **Revision daily:** 15–30 min in Block 4, non-negotiable
+
+---
+
+## 7. The File System
 
 | File | Role |
 |---|---|
-| `MASTER_ROADMAP.md` | This file – big picture |
-| `RESOURCE_HUB.md` | All free links |
-| `GOVT_SYLLABUS_SUMMARY.md` | Overlap syllabus |
-| `TECH_PROJECTS.md` | Projects with steps |
-| `WEEK_01_PLAN.md` | Day 1–7 detailed |
-| `DAILY_TASK_TEMPLATE.md` | Reusable daily plan |
-| `PROGRESS_TRACKER.md` | Checkboxes + % + streak |
-| `ERROR_NOTEBOOK.md` | Mistakes + Fix |
-| `WEAK_TOPICS.md` | Priority list |
-| `DAILY_LOG.md` | Daily reflection |
-| `STUDY_RULES.md` | Rules to follow |
+| `MASTER_ROADMAP.md` | This file — the big picture |
+| `WEEK_01_PLAN.md` | Day 1–7, hour by hour |
+| `DAY_1_ACTION_PLAN.md` | Start right now |
+| `DAILY_TASK_TEMPLATE.md` | Copy-paste daily plan |
+| `GOVT_SYLLABUS_SUMMARY.md` | Overlap syllabus for all 3 exams |
+| `TECH_PROJECTS.md` | 7 projects, step by step |
+| `PROGRESS_TRACKER.md` | 90-day checklist + streak |
+| `ERROR_NOTEBOOK.md` | Every mistake + its fix |
+| `WEAK_TOPICS.md` | Priority list of what to fix |
+| `DAILY_LOG.md` | Honest daily reflection |
+| `STUDY_RULES.md` | Rules that keep you consistent |
+| `RESOURCE_HUB.md` | All free links in one place |
 
-**REMINDER:** Consistency over intensity. 1 focused day repeated 90 times > 5 random 12-hour bursts.
+> **Next step →** Open `DAY_1_ACTION_PLAN.md` and start Block 1.

@@ -1,72 +1,76 @@
-# WEAK_TOPICS.md
+# Weak Topics
 
-# WEAK_TOPICS.md
+> Your personal fix-list. Pulled from `ERROR_NOTEBOOK.md`. Work the **HIGH** items first in Blocks 3–4.
 
-Auto-update this from `ERROR_NOTEBOOK.md`. Work on **HIGH** first in Block 3–4.
-
-**Priority:** HIGH > MID > LOW | **Status:** PENDING / IN-PROGRESS / DONE / REVISING
+**Status legend:** `TODO` · `WIP` · `DONE` · `REVISING`
 
 ---
 
-## A) GOVT WEAK TOPICS
+## A. Govt Weak Topics
 
-### HIGH PRIORITY (Fix this week)
-| S.No | Subject | Topic | Reason (from errors) | Plan | Target Date | Status |
-|---|---|---|---|---|---|---|
-| 1 | | | | 10–15 Qs/day for 3–4 days | DD-MM | PENDING |
-| 2 | | | | | | |
-| 3 | | | | | | |
+### High Priority — fix this week
 
-### MID PRIORITY (Fix next 7–10 days)
-| S.No | Subject | Topic | Reason | Plan | Target | Status |
-|---|---|---|---|---|---|---|
-| 1 | | | | 8–10 Qs/day | | PENDING |
-| 2 | | | | | | |
+| # | Subject | Topic | Why weak | Action | Status |
+|---|---|---|---|---|---|
+| 1 | | | | 10–15 Qs/day | TODO |
+| 2 | | | | | TODO |
+| 3 | | | | | TODO |
 
-### LOW PRIORITY (Revise once/week)
-| S.No | Subject | Topic | Reason | Plan | Target | Status |
-|---|---|---|---|---|---|---|
-| 1 | | | | 5–7 Qs on Sat/Sun | | PENDING |
+### Medium Priority — fix within 2 weeks
+
+| # | Subject | Topic | Why weak | Action | Status |
+|---|---|---|---|---|---|
+| 1 | | | | | TODO |
+| 2 | | | | | TODO |
+
+### Low Priority — light revision
+
+| # | Subject | Topic | Why weak | Action | Status |
+|---|---|---|---|---|---|
+| 1 | | | | weekly | TODO |
 
 ---
 
-## B) TECH WEAK TOPICS
+## B. Tech Weak Topics
 
-### HIGH
-| S.No | Topic | Concept Gap | File/Error | Action Plan | Status |
-|---|---|---|---|---|---|
-| 1 | | | | Re-read + redo small example | PENDING |
-| 2 | | | | | |
+### High
 
-### MID
-| S.No | Topic | Concept Gap | File/Error | Action Plan | Status |
-|---|---|---|---|---|---|
-| 1 | | | | Practice 20–30 min | PENDING |
+| # | Topic | Concept gap | Action | Status |
+|---|---|---|---|---|
+| 1 | | | re-read + small example | TODO |
+| 2 | | | | TODO |
 
-### LOW
-| S.No | Topic | Concept Gap | File/Error | Action Plan | Status |
-|---|---|---|---|---|---|
-| 1 | | | | Quick revision weekly | PENDING |
+### Medium
+
+| # | Topic | Concept gap | Action | Status |
+|---|---|---|---|---|
+| 1 | | | | TODO |
+
+### Low
+
+| # | Topic | Concept gap | Action | Status |
+|---|---|---|---|---|
+| 1 | | | weekly | TODO |
 
 ---
 
-## C) REVISION SCHEDULE
+## C. Weekly Revision Schedule
 
 | Day | Focus |
 |---|---|
-| **Mon** | Top 1–2 HIGH Govt |
-| **Tue** | Top 1–2 HIGH Tech |
-| **Wed** | Mix of HIGH from both |
-| **Thu** | Next in HIGH list |
-| **Fri** | Fix any new errors from week |
-| **Sat** | MID topics |
-| **Sun** | Review DONE -> keep fresh or move out |
+| Mon | Top 1–2 HIGH Govt topics |
+| Tue | Top 1–2 HIGH Tech topics |
+| Wed | Mixed HIGH from both |
+| Thu | Next in HIGH list |
+| Fri | Fix new errors from the week |
+| Sat | Medium topics |
+| Sun | Review DONE → refresh or retire |
 
 ---
 
-## RULES
-- Move to **DONE** ONLY after solving >=10 correctly **without** looking
-- If you get it wrong again after marking DONE -> move back to **REVISING**
-- Never delete. Just change status
-- Review this file in **BLOCK 4** every single day
+## Rules
 
+- Mark **DONE** only after **10 correct answers without help**
+- Get it wrong after DONE? Move back to **REVISING**
+- Never delete — just change status
+- Review this file **every day** in Block 4

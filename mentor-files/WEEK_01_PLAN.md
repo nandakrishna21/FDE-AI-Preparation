@@ -1,105 +1,114 @@
-# WEEK_01_PLAN.md
+# Week 01 Plan — Days 1 to 7
 
-# WEEK 01 PLAN (DAYS 1 – 7)
+> **Goal this week:** Lock the 10-hour habit, set up your tools, and ship your first 2 projects.
+> **End-of-week target:** 6–7 solid days · 1 GitHub repo · first Govt topic done.
 
-**Focus:** Build habit (10 hours), Setup, Git, HTML/CSS, JS Basics + Govt overlap.
-
-**Goal by End of Week 1:** Full block running >=6–7 days. GitHub has >=1 repo. First Govt topic-wise done.
+| Focus Area | This Week |
+|---|---|
+| **Govt** | Syllabus mapping · Reasoning (Analogy, Series, Classification, Direction) · English (Parts of Speech, Tenses) · Quant (Number System, Percentage) |
+| **Tech** | Setup · Git basics · HTML · CSS · JavaScript fundamentals |
+| **Projects** | Profile Card · To-Do App |
 
 ---
 
-## DAY 1 (FOUNDATION START)
+## Day 1 — Setup & Mapping
+**Theme:** Get everything installed and get clarity.
 
-| Block | Time | Task | Done |
+| Block | Time | Task | ✔ |
 |---|---|---|---|
-| **B1 – Govt** | 05:00–08:00 (3h) | **Syllabus Mapping:** Open [ssc.gov.in](https://ssc.gov.in/), [ibps.in](https://www.ibps.in/), [upsc.gov.in](https://www.upsc.gov.in/). Copy overlap to `GOVT_SYLLABUS_SUMMARY.md`. Do **Reasoning – Analogy** (10–12) | [ ] |
-| **B2 – Tech** | 09:00–12:00 (3h) | **Setup:** Node.js(LTS), VS Code, Git. Check `node -v`, `npm -v`, `git --version`. Create folder `fde-ai-govt-mentor-projects/` | [ ] |
-| **B3 – Govt Practice** | 13:00–15:00 (2h) | **PYQs Start:** JagranJosh PYQs – pick easy. **Current Affairs:** PIB (15–20 min) + note 5 points | [ ] |
-| **B4 – Tech+Rev** | 16:00–18:00 (2h) | **Git Basics:** [learngitbranching.js.org](https://learngitbranching.js.org) – Levels 1–4. Init repo, `add/commit`. Fill `DAILY_LOG.md` | [ ] |
+| **B1 Govt** | 05:00–08:00 | Scan SSC + IBPS + UPSC APFC syllabus → copy overlap into `GOVT_SYLLABUS_SUMMARY.md`. Reasoning: **Analogy** (10–12 Qs) | [ ] |
+| **B2 Tech** | 09:00–12:00 | Install Node.js (LTS), VS Code, Git. Verify versions. Create `fde-ai-govt-mentor-projects/` folder | ✔ |
+| **B3 Practice** | 13:00–15:00 | JagranJosh PYQs (easy set) + PIB Current Affairs 20 min | ✔ |
+| **B4 Tech+Rev** | 16:00–18:00 | LearnGitBranching Levels 1–4. `git init` + first commit. Fill `DAILY_LOG.md` | ✔ |
 
-**Target:** 10 hours | **Must:** Git repo created
+**Verify installs:** `node -v` · `npm -v` · `git --version`
 
 ---
 
-## DAY 2 (HTML + REASONING)
+## Day 2 — HTML & Reasoning
+**Theme:** First real HTML. Keep solving daily.
 
-| Block | Time | Task | Done |
+| Block | Time | Task | ✔ |
 |---|---|---|---|
-| **B1 – Govt** | 05:00–08:00 (3h) | **Reasoning:** Series (Number/Alpha) – Concept + 15–20 Qs. Log wrong in `ERROR_NOTEBOOK.md` | [ ] |
-| **B2 – Tech** | 09:00–12:00 (3h) | **HTML Basics:** MDN HTML. Learn tags, forms, links, images. Start **Project 1: Profile Card** | [ ] |
-| **B3 – Govt Practice** | 13:00–15:00 (2h) | **Quant Starter:** Number System Basics + 10–12 Qs. CA notes update | [ ] |
-| **B4 – Tech+Rev** | 16:00–18:00 (2h) | **CSS Flexbox:** Style Profile Card. Push to GitHub. Revise Day1 Govt errors. | [ ] |
+| **B1 Govt** | 05:00–08:00 | Reasoning: **Series** (Number + Alpha) — concept + 15–20 Qs. Log mistakes | ✔ |
+| **B2 Tech** | 09:00–12:00 | MDN HTML: tags, links, images, lists. Start **Project 1: Profile Card** | ✔ |
+| **B3 Govt** | 13:00–15:00 | Quant: **Number System** basics + 10–12 Qs. CA notes | ✔ |
+| **B4 Tech** | 16:00–18:00 | CSS basics (colors, fonts, spacing). Style the card. `git commit` | ✔ |
 
-**Focus:** Code > read. Type everything.
+> **Reminder:** Type every line yourself. No copy-paste.
 
 ---
 
-## DAY 3 (CSS DEEP + ENGLISH)
+## Day 3 — CSS Deep & English
+**Theme:** Make things look good; build grammar base.
 
-| Block | Time | Task | Done |
+| Block | Time | Task | ✔ |
 |---|---|---|---|
-| **B1 – Govt** | 05:00–08:00 (3h) | **English:** Parts of Speech + Tenses – [EnglishGrammar.org](https://www.englishgrammar.org/). Do 15–20 | [ ] |
-| **B2 – Tech** | 09:00–12:00 (3h) | **CSS:** Box Model, padding/margin, border-radius, box-shadow. Polish Profile Card | [ ] |
-| **B3 – Govt Practice** | 13:00–15:00 (2h) | **Reasoning:** Classification/Odd One Out + 12–15. CA 15–20 min | [ ] |
-| **B4 – Tech+Rev** | 16:00–18:00 (2h) | **Git Push:** Clean README for Project 1. Revise weak from B1–B3. Update logs | [ ] |
+| **B1 Govt** | 05:00–08:00 | English: **Parts of Speech + Tenses** (EnglishGrammar.org) + 15–20 Qs | ✔ |
+| **B2 Tech** | 09:00–12:00 | CSS box model, padding/margin, border-radius, box-shadow. Polish Profile Card | ✔ |
+| **B3 Govt** | 13:00–15:00 | Reasoning: **Classification / Odd One Out** + 12–15 Qs. CA | ✔ |
+| **B4 Tech** | 16:00–18:00 | Write a clean **README** for Project 1. Push to GitHub | ✔ |
 
-**Goal:** Project 1 COMPLETE on GitHub
+> **Done:** Project 1 live on GitHub.
 
 ---
 
-## DAY 4 (JS START + QUANT)
+## Day 4 — JavaScript Begins
+**Theme:** First real programming.
 
-| Block | Time | Task | Done |
+| Block | Time | Task | ✔ |
 |---|---|---|---|
-| **B1 – Govt** | 05:00–08:00 (3h) | **Quant:** Percentage – Concept + 15–20 Qs. Focus on % change, increase/decrease | [ ] |
-| **B2 – Tech** | 09:00–12:00 (3h) | **JS Basics:** [javascript.info](https://javascript.info/) – Variables, Data Types, if/else, loops | [ ] |
-| **B3 – Govt Practice** | 13:00–15:00 (2h) | **English:** Error Spotting – 10–15 Qs. Add to ERROR_NOTEBOOK | [ ] |
-| **B4 – Tech+Rev** | 16:00–18:00 (2h) | **JS Practice:** Write 8–10 small exercises in console/style. Revise % errors | [ ] |
+| **B1 Govt** | 05:00–08:00 | Quant: **Percentage** + 15–20 Qs (increase/decrease, successive %) | ✔ |
+| **B2 Tech** | 09:00–12:00 | JS: variables, data types, `if/else`, loops (javascript.info) | ✔ |
+| **B3 Govt** | 13:00–15:00 | English: **Error Spotting** + 10–15 Qs. Log errors | ✔ |
+| **B4 Tech** | 16:00–18:00 | 8–10 small JS exercises. Revise Percentage errors | ✔ |
 
 ---
 
-## DAY 5 (JS FUNCTIONS + REASONING)
+## Day 5 — Functions & Arrays
+**Theme:** Build logic muscles.
 
-| Block | Time | Task | Done |
+| Block | Time | Task | ✔ |
 |---|---|---|---|
-| **B1 – Govt** | 05:00–08:00 (3h) | **Reasoning:** Direction & Distance – Concept + 12–18 Qs | [ ] |
-| **B2 – Tech** | 09:00–12:00 (3h) | **JS:** Functions, Arrow, Arrays – methods (push/pop/unshift/shift/splice/slice) | [ ] |
-| **B3 – Govt Practice** | 13:00–15:00 (2h) | **Quant:** Profit & Loss – 12–15 Qs + CA | [ ] |
-| **B4 – Tech+Rev** | 16:00–18:00 (2h) | **Project 2 Start:** TO-DO UI in HTML/CSS/JS. Revise ERROR_NOTEBOOK | [ ] |
+| **B1 Govt** | 05:00–08:00 | Reasoning: **Direction & Distance** + 12–18 Qs | ✔ |
+| **B2 Tech** | 09:00–12:00 | JS: functions, arrow functions, array methods (`push`, `pop`, `map`, `filter`) | ✔ |
+| **B3 Govt** | 13:00–15:00 | Quant: **Profit & Loss** + 12–15 Qs. CA | ✔ |
+| **B4 Tech** | 16:00–18:00 | Start **Project 2: To-Do App** — build the HTML/CSS UI | ✔ |
 
 ---
 
-## DAY 6 (JS DOM + ENGLISH RC)
+## Day 6 — DOM & Reading Comp
+**Theme:** Make the browser interactive.
 
-| Block | Time | Task | Done |
+| Block | Time | Task | ✔ |
 |---|---|---|---|
-| **B1 – Govt** | 05:00–08:00 (3h) | **English:** Reading Comprehension – 1 full passage + questions. Vocab notes | [ ] |
-| **B2 – Tech** | 09:00–12:00 (3h) | **JS DOM:** Events, querySelector, classList. Add tasks to list | [ ] |
-| **B3 – Govt Practice** | 13:00–15:00 (2h) | **Reasoning:** Blood Relations – 10–15 Qs | [ ] |
-| **B4 – Tech+Rev** | 16:00–18:00 (2h) | **TO-DO:** Add delete/complete + localStorage. Revise weak topics | [ ] |
+| **B1 Govt** | 05:00–08:00 | English: 1 full **Reading Comprehension** + vocab notes | ✔ |
+| **B2 Tech** | 09:00–12:00 | JS DOM: `querySelector`, events, `classList`. Add tasks | ✔ |
+| **B3 Govt** | 13:00–15:00 | Reasoning: **Direction revision + mixed** + 12 Qs. CA | ✔ |
+| **B4 Tech** | 16:00–18:00 | Add delete + complete + `localStorage` to To-Do | ✔ |
 
 ---
 
-## DAY 7 (WEEK REVIEW + POLISH)
+## Day 7 — Weekend Review
 
-| Block | Time | Task | Done |
+| Block | Time | Task | ✔ |
 |---|---|---|---|
-| **B1 – Govt** | 05:00–08:00 (3h) | **Mixed Revision:** Pick TOP 3 weak from Week1 (Quant/Reasoning/English) – 20–25 Qs | [ ] |
-| **B2 – Tech** | 09:00–12:00 (3h) | **Finish Project 2:** Test all features. Fix bugs | [ ] |
-| **B3 – Govt Practice** | 13:00–15:00 (2h) | **PYQs Mix:** 12–15 + CA Revision (last 7 days) | [ ] |
-| **B4 – Tech+Rev** | 16:00–18:00 (2h) | **WEEKLY REVIEW:** Fill `PROGRESS_TRACKER.md`, update `WEAK_TOPICS.md`, `DAILY_LOG.md`. Push Project 2. Plan Week 2 | [ ] |
+| **B1 Govt** | 05:00–08:00 | Eloquent mix: top weak topics from Week 1 (Quant/Reasoning/English) + 20 Qs |
+| **B2 Tech** | 09:00–12:00 | Finish To-Do app; test edge cases |
+| **B3 Govt** | 13:00–15:00 | 1 short sectional-ish set + CA weekly recap |
+| **B4 Tech** | 16:00–18:00 | Weekly review: `PROGRESS_TRACKER.md`, `WEAK_TOPICS.md`, `DAILY_LOG.md` |
 
 ---
 
-## WEEK 1 CHECKLIST
+## Week 1 Checklist
 
-- [ ] Hit >=8–10 hours on 6–7 days
-- [ ] `GOVT_SYLLABUS_SUMMARY.md` filled with overlap
-- [ ] Project 1 & 2 pushed to GitHub with README
-- [ ] `ERROR_NOTEBOOK.md` has >=5–10 entries
-- [ ] `WEAK_TOPICS.md` has real weak areas
+- [ ] Log ≥4 hours on all 7 days
+- [ ] Tool chain working: Node, npm, Git, VS Code
+- [ ] **Project 1 (Profile Card)** pushed with README
+- [ ] First Git commit + push done
+- [ ] `GOVT_SYLLABUS_SUMMARY.md` filled with real topics
+- [ ] `ERROR_NOTEBOOK.md` has ≥10 entries
+- [ ] `WEAK_TOPICS.md` reflecting real weaknesses
 - [ ] `DAILY_LOG.md` filled daily
-- [ ] Git basics comfortable (init/add/commit/push)
 
-**END OF WEEK 1 GOAL:** Habit formed. Seeing code run + solving questions daily.
-
+> **Next week preview:** Deeper JS, first DOM app, TypeScript intro, Quant (Profit-Loss, Ratio), Reasoning (Syllogism).

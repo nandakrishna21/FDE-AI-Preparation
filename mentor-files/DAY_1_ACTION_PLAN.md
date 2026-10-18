@@ -1,67 +1,89 @@
-# DAY 1 ACTION PLAN (START NOW)
+# Day 1 Action Plan — Start Right Now
 
-**Date:** Put today's date in all logs
+> **You are at absolute zero. That is fine. Today you only need to begin.**
+> Do the blocks in order. Don't overthink. Finish Block 1 first.
+
 **Folder:** `C:\Users\NANDAK~1\Documents\fde-ai-govt-mentor\`
-**Projects Folder:** Create `C:\Users\NANDAK~1\Documents\fde-ai-govt-mentor-projects\`
+**Projects folder to create:** `C:\Users\NANDAK~1\Documents\fde-ai-govt-mentor-projects\`
 
 ---
 
-## IMMEDIATE STEPS (FIRST 30 MIN)
+## First 30 Minutes
 
-1. [ ] Open this folder in VS Code: `code "C:\Users\NANDAK~1\Documents\fde-ai-govt-mentor"`
-2. [ ] Read `MASTER_ROADMAP.md` fully
-3. [ ] Skim `WEEK_01_PLAN.md` for Day 1
-4. [ ] Create projects folder: `fde-ai-govt-mentor-projects`
-
----
-
-## TODAY'S EXECUTION (10 HOURS)
-
-Follow **WEEK_01_PLAN.md > DAY 1** exactly.
-
-| Block | Action |
-|---|---|
-| **B1 (05:00–08:00)** | Fill `GOVT_SYLLABUS_SUMMARY.md` overlap for SSC/Bank/APFC. Do Reasoning–Analogy 10–12 |
-| **B2 (09:00–12:00)** | Install Node.js(LTS), Git, VS Code. Verify versions. Git basics |
-| **B3 (13:00–15:00)** | JagranJosh PYQs easy set + PIB CA (20–25 min) |
-| **B4 (16:00–18:00)** | Start `01-profile-card`. Git init + first commit. Update all logs |
+1. Open the mentor folder in VS Code
+2. Read `MASTER_ROADMAP.md` (5 min)
+3. Skim this file + `WEEK_01_PLAN.md` Day 1
+4. Create the projects folder
+5. Start **Block 1**
 
 ---
 
-## FILES TO UPDATE TODAY
+## Today's Blocks
 
-- [ ] `GOVT_SYLLABUS_SUMMARY.md` – tick what you see in official sites
-- [ ] `ERROR_NOTEBOOK.md` – log any wrong MCQ
-- [ ] `WEAK_TOPICS.md` – add if any repeat
-- [ ] `DAILY_LOG.md` – fill Day 1 entry
-- [ ] `PROGRESS_TRACKER.md` – tick Day 1 blocks
+### Block 1 — Govt (05:00–08:00)
+- Open [ssc.gov.in](https://ssc.gov.in/), [ibps.in](https://www.ibps.in/), [upsc.gov.in](https://www.upsc.gov.in/)
+- Copy the **common topics** into `GOVT_SYLLABUS_SUMMARY.md`
+- Reasoning: **Analogy** — 10–12 questions
+- 🎯 Target: know exactly what you're studying for
+
+### Block 2 — Tech (09:00–12:00)
+- Install **Node.js (LTS)**, **VS Code**, **Git**
+- Verify in terminal: `node -v`, `npm -v`, `git --version`
+- Git basics via [learngitbranching.js.org](https://learngitbranching.js.org) (Levels 1–4)
+- 🎯 Target: tools working + first `git init`
+
+### Block 3 — Govt Practice (13:00–15:00)
+- Solve an easy PYQ set (JagranJosh)
+- Current Affairs: PIB — note 5 points
+- 🎯 Target: 10–15 questions attempted
+
+### Block 4 — Tech + Review (16:00–18:00)
+- Start **Project 1: Profile Card** (HTML)
+- First `git add`, `git commit`, `git push`
+- Fill `DAILY_LOG.md` + tick `PROGRESS_TRACKER.md`
+- 🎯 Target: first commit made
 
 ---
 
-## COMMANDS TO RUN
+## Update These Files Today
+
+- [ ] `GOVT_SYLLABUS_SUMMARY.md` — real topics
+- [ ] `ERROR_NOTEBOOK.md` — every wrong MCQ
+- [ ] `WEAK_TOPICS.md` — repeated mistakes
+- [ ] `DAILY_LOG.md` — Day 1 entry
+- [ ] `PROGRESS_TRACKER.md` — tick Day 1
+
+---
+
+## Commands To Run
 
 ```bash
-# Check installs
-node -v; npm -v; git --version
+# Verify tools
+node -v
+npm -v
+git --version
 
-# Create projects dir
+# Create projects folder
 mkdir "C:\Users\NANDAK~1\Documents\fde-ai-govt-mentor-projects"
 
-# Start first project
+# Start Project 1
 cd "C:\Users\NANDAK~1\Documents\fde-ai-govt-mentor-projects"
 mkdir 01-profile-card
 cd 01-profile-card
+
+# First git repo
+git init
+git add .
+git commit -m "day 1: profile card start"
 ```
 
 ---
 
-## ADVICE
+## Mindset
 
-- **Don't overthink.** Just start B1 now.
-- **Focus on overlap.** One note for all 3 exams.
-- **Code daily. Push daily. Fix daily.**
-- **If <10 hours, still do it. Consistency > intensity.**
+- **Done > Perfect.** A rough first day beats a perfect plan.
+- **Low energy?** Just do Blocks 1 + 2.
+- **Missed a day?** Don't miss two in a row.
+- **You are building a habit, not finishing a syllabus.**
 
-**NEXT:** Do DAY 1 as per template. After completing, I'll help with DAY 2 or fix any doubts.
-
-**Ready. Start now.**
+> **Next →** Return after Day 1 and move to Day 2 in `WEEK_01_PLAN.md`.

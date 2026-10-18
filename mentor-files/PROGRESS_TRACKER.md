@@ -1,202 +1,66 @@
-# PROGRESS_TRACKER.md
+# Progress Tracker
 
-# PROGRESS TRACKER
+> One line per week. Tick each day you hit **≥8 hours**. Keep your streak alive.
 
-Track daily completion, streak, weekly % and milestones.
-
-**Start Date:** ___________ | **Current Streak:** _____ Days | **Best Streak:** _____ Days
+**Start Date:** __ / __ / ____  ·  **Current Streak:** ___ days  ·  **Best Streak:** ___ days
 
 ---
 
-## OCT/NOV 90-DAY TRACKER (WEEK 1 – 13)
+## Weekly Grid
 
-### WEEK 1 (Days 1–7) | HABIT
-| Day | Date | B1 Govt(3h) | B2 Tech(3h) | B3 Practice(2h) | B4 Rev+Proj(2h) | Total(10h) | Done |
-|---|---|---|---|---|---|---|---|
-| Day1 | __/__/__ | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Day2 | __/__/__ | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Day3 | __/__/__ | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Day4 | __/__/__ | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Day5 | __/__/__ | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Day6 | __/__/__ | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Day7 | __/__/__ | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-
-**W1 %:** ____ | **Hit >=8h:** ____/7
-
----
-
-### WEEK 2 (Days 8–14) | JS + GOVT CORE
-| Day | Date | B1 | B2 | B3 | B4 | Total | Done |
-|---|---|---|---|---|---|---|---|
-| Day8 | __/__/__ | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Day9 | __/__/__ | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Day10 | __/__/__ | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Day11 | __/__/__ | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Day12 | __/__/__ | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Day13 | __/__/__ | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| Day14 | __/__/__ | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-
-**W2 %:** ____
+| Week | D1 | D2 | D3 | D4 | D5 | D6 | D7 | Avg hrs | Govt Qs | Push days | % |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **1** | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | | | | |
+| **2** | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | | | | |
+| **3** | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | | | | |
+| **4** | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | | | | |
+| **5** | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | | | | |
+| **6** | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | | | | |
+| **7** | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | | | | |
+| **8** | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | | | | |
+| **9** | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | | | | |
+| **10** | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | | | | |
+| **11** | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | | | | |
+| **12** | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | | | | |
+| **13** | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] | | | | |
 
 ---
 
-### WEEK 3 (Days 15–21) | TS START
-| Day | B1 | B2 | B3 | B4 | Total | Done |
-|---|---|---|---|---|---|---|
-| D15 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D16 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D17 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D18 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D19 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D20 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D21 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+## Weekly Focus Map
 
-**W3 %:** ____
-
----
-
-### WEEK 4 (22–28) | REACT + VITE
-| Day | B1 | B2 | B3 | B4 | Total | Done |
-|---|---|---|---|---|---|---|
-| D22 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D23 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D24 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D25 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D26 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D27 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D28 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| Week | Phase | Govt Focus | Tech Focus |
+|---|---|---|---|
+| 1 | Foundation | Syllabus, Reasoning basics, Quant basics | Setup, Git, HTML, CSS, JS basics |
+| 2 | Foundation | Percentage, Ratio, English grammar | JS deep dive, DOM, To-Do app |
+| 3 | Foundation | Time-Work, Syllogism, RC | TypeScript, refactor projects |
+| 4–6 | Core | Mixed PYQs, Error fixing | React + Vite, Notes app |
+| 7–9 | Fullstack | Sectional mocks | Node + Express + SQLite, fullstack app |
+| 10–11 | AI | Mocks + weak topics | AI chatbot, RAG basics |
+| 12–13 | Polish | Full revision | Agent, portfolio, MCP intro |
 
 ---
 
-### WEEK 5 (29–35) | REACT DEEP
-| Day | B1 | B2 | B3 | B4 | Total | Done |
-|---|---|---|---|---|---|---|
-| D29 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D30 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D31 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D32 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D33 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D34 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D35 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
+## Milestones
 
----
-
-### WEEK 6 (36–42) | EXPRESS BASICS
-| Day | B1 | B2 | B3 | B4 | Total | Done |
-|---|---|---|---|---|---|---|
-| D36 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D37 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D38 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D39 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D40 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D41 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D42 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-
----
-
-### WEEK 7 (43–49) | FULLSTACK CONNECT
-| Day | B1 | B2 | B3 | B4 | Total | Done |
-|---|---|---|---|---|---|---|
-| D43 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D44 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D45 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D46 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D47 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D48 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D49 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-
----
-
-### WEEK 8 (50–56) | AI CHATBOT
-| Day | B1 | B2 | B3 | B4 | Total | Done |
-|---|---|---|---|---|---|---|
-| D50 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D51 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D52 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D53 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D54 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D55 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D56 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-
----
-
-### WEEK 9 (57–63) | AI PRACTICE + REV
-| Day | B1 | B2 | B3 | B4 | Total | Done |
-|---|---|---|---|---|---|---|
-| D57 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D58 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D59 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D60 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D61 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D62 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D63 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-
----
-
-### WEEK 10 (64–70) | RAG BASICS
-| Day | B1 | B2 | B3 | B4 | Total | Done |
-|---|---|---|---|---|---|---|
-| D64 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D65 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D66 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D67 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D68 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D69 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D70 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-
----
-
-### WEEK 11 (71–77) | AGENT BASICS
-| Day | B1 | B2 | B3 | B4 | Total | Done |
-|---|---|---|---|---|---|---|
-| D71 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D72 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D73 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D74 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D75 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D76 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D77 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-
----
-
-### WEEK 12 (78–84) | REVISION HEAVY
-| Day | B1 | B2 | B3 | B4 | Total | Done |
-|---|---|---|---|---|---|---|
-| D78 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D79 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D80 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D81 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D82 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D83 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D84 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-
----
-
-### WEEK 13 (85–90) | FINAL PUSH
-| Day | B1 | B2 | B3 | B4 | Total | Done |
-|---|---|---|---|---|---|---|
-| D85 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D86 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D87 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D88 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D89 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| D90 | [ ] | [ ] | [ ] | [ ] | [ ] | [ ] |
-
----
-
-## MILESTONES
-
-| Milestone | Target | Status |
+| Milestone | Target | ✔ |
 |---|---|---|
-| **21-Day Streak** | >=8h for 21 days | [ ] |
-| **Projects** | P1–P5 complete | [ ] |
-| **AI Projects** | P6–P7 attempt/completed | [ ] |
-| **Govt Accuracy** | +15–20% from Day15 | [ ] |
-| **GitHub Active** | 60–75% days pushed | [ ] |
+| **21-Day Streak** | ≥8h for 21 straight days | [ ] |
+| **First Repo Live** | Project 1 pushed | [ ] |
+| **React Ready** | Project 3 complete | [ ] |
+| **Fullstack** | Project 4 complete | [ ] |
+| **AI Built** | Project 5 complete | [ ] |
+| **RAG + Agent** | Projects 6–7 done | [ ] |
+| **Accuracy Jump** | +15–20% vs Day 15 | [ ] |
+| **Portfolio** | 4–7 repos with READMEs | [ ] |
 
-## WEEKLY REVIEW (EVERY SUNDAY)
-- [ ] Review ERROR_NOTEBOOK top 5
-- [ ] Clean WEAK_TOPICS (move DONE to bottom)
-- [ ] Check streak & % 
-- [ ] Fix 1 BIGGEST blocker next week
+---
 
+## Weekly Review (Every Sunday)
+
+- [ ] Re-solve top 5 errors from `ERROR_NOTEBOOK.md`
+- [ ] Clean `WEAK_TOPICS.md` (move finished items down)
+- [ ] Check streak + weekly %
+- [ ] Fix the single biggest blocker next week
+- [ ] Plan Week (n+1) focus
+
+> **Rule:** A missed day is data, not failure. Adjust and continue.

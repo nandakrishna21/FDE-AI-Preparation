@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mentor Files | FDE + AI + Govt Mentor</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="files.css">
+    <link rel="stylesheet" href="docs.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        (function () {
+            var t = 'light';
+            try { t = localStorage.getItem('fde-theme') || 'light'; } catch (e) {}
+            document.documentElement.setAttribute('data-theme', t);
+        })();
+    </script>
 </head>
 <body>
     <nav class="navbar">
@@ -16,11 +23,14 @@
                 <i class="fas fa-graduation-cap"></i>
                 <span>FDE+AI Mentor</span>
             </a>
-            <button class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
             <ul class="nav-menu" id="nav-menu">
                 <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="index.html#roadmap" class="nav-link">Roadmap</a></li>
@@ -55,5 +65,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="files-app.js"></script>
+    <script src="theme.js"></script>
 </body>
 </html>

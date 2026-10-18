@@ -1,313 +1,220 @@
-# TECH_PROJECTS.md
+# Tech Projects — From Zero to Portfolio
 
-# TECH PROJECTS: FDE + AI (From Zero -> Portfolio)
+> Build in order. **Understand → code → debug → push.** Never just copy.
+> Each project maps to a real skill and becomes part of your GitHub portfolio.
 
-Build in this exact order. Focus on **understand -> code -> debug -> push**. Don't just copy.
-
-**Repo Naming:** `fde-ai-govt-mentor-projects` folder or separate repos. Keep all on GitHub.
+| # | Project | Stack | Difficulty | Time |
+|---|---|---|---|---|
+| 1 | Profile Card | HTML + CSS | Easy | 1–2 h |
+| 2 | To-Do App | JS + DOM + localStorage | Easy | 2–3 h |
+| 3 | Notes App | React + Vite + TS | Medium | 2–3 h |
+| 4 | Fullstack Notes | React + Express + SQLite | Medium | 3–4 h |
+| 5 | AI Chatbot | React + Express + OpenRouter | Medium | 2–3 h |
+| 6 | DocuQ&A (RAG) | React + Express + RAG | Hard | 2–4 h |
+| 7 | AI Todo Agent | React + Express + Agent | Hard | 2–3 h |
 
 ---
 
-## PROJECT 1: PROFILE CARD (HTML + CSS)
+## Project 1 — Profile Card
 
-**Goal:** Get comfortable with HTML structure, CSS styling, Flexbox.
+**Goal:** HTML structure + CSS layout (Flexbox). **Stack:** HTML, CSS.
 
-**Time:** 1–2 hours | **Difficulty:** ★☆☆
-
-### Tech
-- HTML5, CSS3
-
-### Features
-- Photo, Name, Role, Social links
+**Features**
+- Photo, name, role, short bio, social links
 - Centered card using Flexbox
-- Clean, minimal UI
+- Responsive and clean
 
-### Steps
-1. Create `01-profile-card/`
-2. `index.html`, `style.css`
-3. Use semantic tags (`header`, `main`, `footer`)
-4. Style with flexbox, padding, border-radius, box-shadow
-5. Make it responsive (basic)
+**Steps**
+1. Create folder `01-profile-card/`
+2. Add `index.html` + `style.css`
+3. Use semantic tags: `header`, `main`, `footer`
+4. Style with Flexbox, padding, `border-radius`, `box-shadow`
 
-### Checkpoints
-- [ ] Code runs in browser
+**Checkpoints**
+- [ ] Runs in browser
 - [ ] Looks centered & clean
-- [ ] Pushed to GitHub with README
+- [ ] Pushed with a README
 
-### Stretch
-- [ ] Add hover effect on button
-- [ ] Use CSS variables
+**Stretch:** hover effect on a button · CSS variables.
 
 ---
 
-## PROJECT 2: TO-DO APP (JS + DOM + localStorage)
+## Project 2 — To-Do App
 
-**Goal:** Master JS logic, DOM events, data persistence.
+**Goal:** JS logic, DOM events, persistence. **Stack:** HTML, CSS, JS.
 
-**Time:** 2–3 hours | **Difficulty:** ★☆☆
+**Features**
+- Add / delete / complete tasks
+- Filter: All · Active · Completed
+- Save to `localStorage`
+- Empty-state message
 
-### Tech
-- HTML, CSS, JavaScript
-
-### Features
-- Add/Delete/Mark Complete tasks
-- Filter: All/Active/Completed
-- Persist using `localStorage`
-- Empty state message
-
-### Steps
+**Steps**
 1. Create `02-js-todo/`
 2. Build UI: input + button + list
-3. Handle events (`click`, `submit`)
-4. Use arrays + `render()`
-5. Save/load from localStorage
-6. Add basic validation
+3. Handle `submit` / `click` events
+4. Keep tasks in an array; write a `render()` function
+5. Save/load from `localStorage`
 
-### Checkpoints
+**Checkpoints**
 - [ ] Add/remove works
 - [ ] Toggle complete works
-- [ ] Refresh doesn't lose data
-- [ ] Clean JS (no clutter)
+- [ ] Data survives refresh
+- [ ] Code is clean, not spaghetti
 
-### Stretch
-- [ ] Edit task inline
-- [ ] Count pending tasks
+**Stretch:** inline edit · pending-count badge.
 
 ---
 
-## PROJECT 3: NOTES APP (React + Vite + TypeScript)
+## Project 3 — Notes App
 
-**Goal:** Learn React fundamentals + TypeScript basics.
+**Goal:** React fundamentals + TypeScript. **Stack:** Vite + React + TS.
 
-**Time:** 2–3 hours | **Difficulty:** ★★☆
-
-### Tech
-- Vite + React + TypeScript + CSS
-
-### Features
-- Add new note (title + content)
-- View list + full note
-- Delete note
+**Features**
+- Add note (title + content)
+- List + open + delete
 - Save to `localStorage`
-- Type-safe with interfaces
+- Typed with interfaces
 
-### Steps
+**Steps**
 1. `npm create vite@latest 03-notes-app -- --template react-ts`
-2. Define `Note` interface
-3. `useState` for notes & form
-4. Add, delete handlers
-5. useEffect to sync localStorage
-6. Basic CSS styling
+2. Define a `Note` interface
+3. `useState` for notes + form
+4. Add / delete handlers
+5. `useEffect` to sync `localStorage`
 
-### Checkpoints
-- [ ] No TypeScript errors (`npm run build` clean)
-- [ ] CRUD fully working
+**Checkpoints**
+- [ ] `npm run build` has no TS errors
+- [ ] Full CRUD works
 - [ ] Types used properly
 - [ ] README with setup
 
-### Stretch
-- [ ] Search/filter notes
-- [ ] Color tags
+**Stretch:** search/filter · color tags.
 
 ---
 
-## PROJECT 4: FULLSTACK NOTES API + UI (React + Express + SQLite)
+## Project 4 — Fullstack Notes (First Real FDE Project)
 
-**Goal:** Connect frontend to backend. First true fullstack app.
+**Goal:** Connect frontend ↔ backend + DB. **Stack:** React + Express + SQLite.
 
-**Time:** 3–4 hours | **Difficulty:** ★★☆
-
-### Tech
-- Frontend: React + Vite + TS + `fetch`
-- Backend: Node.js + Express + `better-sqlite3` or `sqlite3`
-- DB: SQLite
-
-### Features
-- REST API: GET/POST/DELETE notes
-- React UI calls API
-- SQLite table `notes(id, title, content, created_at)`
-- CORS setup
-- `.env` for PORT
-
-### Folder Structure
-```
+**Folder Structure**
+```text
 04-fullstack-notes/
-├── client/  (Vite React TS)
-└── server/  (Express API)
+├── client/   (Vite React TS)
+└── server/   (Express API)
 ```
 
-### Backend Steps
-1. `npm init -y`, install `express cors better-sqlite3 dotenv nodemon`
-2. Create `db.js` + schema
-3. Routes: `/api/notes` (GET, POST, DELETE)
-4. `server.js` with middleware
-5. Test with browser/fetch logic
+**Backend Steps**
+1. `npm init -y` → install `express cors better-sqlite3 dotenv nodemon`
+2. `db.js` + table `notes(id, title, content, created_at)`
+4. Routes: `GET/POST/DELETE /api/notes`
+5. `server.js` with middleware + CORS
 
-### Frontend Steps
+**Frontend Steps**
 1. Call `http://localhost:5000/api/notes` with `fetch`
-2. Handle loading/empty states
-3. Post new note
-4. Delete on click
+3. Handle loading / empty states
+4. Post new note / delete on click
 
-### Checkpoints
-- [ ] API returns JSON correctly
+**Checkpoints**
+- [ ] API returns correct JSON
 - [ ] Frontend shows data
 - [ ] Add/Delete syncs
-- [ ] Both run together (separately)
-- [ ] `.gitignore` has `node_modules`, `.env`
+- [ ] `.gitignore` excludes `node_modules`, `.env`
 
-### Stretch
-- [ ] Add PUT (edit)
-- [ ] Simple validation
+**Stretch:** add PUT (edit) · validation.
 
 ---
 
-## PROJECT 5: AI CHATBOT (React + Express + OpenRouter)
+## Project 5 — AI Chatbot
 
-**Goal:** First AI-powered app. Learn API keys, prompts, streaming basics.
+**Goal:** First AI app. LLM API + prompts. **Stack:** React + Express + OpenRouter.
 
-**Time:** 2–3 hours | **Difficulty:** ★★☆
-
-### Tech
-- Frontend: React + TS
-- Backend: Express + `fetch`/`axios`
-- API: [OpenRouter](https://www.openrouter.ai/)
-
-### Features
+**Features**
 - Chat UI (user + bot bubbles)
-- Send message to OpenRouter
-- Show response
-- Keep history in state
-- System prompt for friendly tutor
+- Send message → OpenRouter → show reply
+- Keep chat history in state
+- System prompt (friendly tutor)
 - Loading state
 
-### Backend Steps
+**Steps (backend)**
 1. Route `POST /api/chat`
-2. Read `message`, `history` from body
-3. Build messages array (system + history + user)
-4. Call OpenRouter API with key from `.env`
-5. Return `{ reply: ... }`
+2. Read `message` + `history`
+3. Build messages array: system + history + user
+4. Call OpenRouter with key from `.env`
+5. Return `{ reply }`
 
-### Frontend Steps
-1. Input + Send + Messages list
-2. `useState` for messages, loading
-3. `fetch` to backend
-4. Auto-scroll to bottom
-5. Disable input while loading
+**Checkpoints**
+- [ ] Works with a valid key
+- [ ] Errors handled gracefully
+- [ ] Key never exposed in frontend
+- [ ] README explains setup
 
-### Checkpoints
-- [ ] Works with valid key
-- [ ] Handles errors gracefully
-- [ ] No key exposed in frontend
-- [ ] Clean UI
-- [ ] README: how to run + get key
-
-### Security
+**Security**
 - [ ] `.env` in `.gitignore`
-- [ ] Key only in server
-- [ ] Never commit `.env`
+- [ ] Key only on the server
 
-### Stretch
-- [ ] Show model name
-- [ ] Clear chat
-- [ ] Typing indicator
+**Stretch:** typing indicator · clear chat.
 
 ---
 
-## PROJECT 6: DOCUQ&A – RAG BASICS (Upload + Ask)
+## Project 6 — DocuQ&A (RAG Basics)
 
-**Goal:** Understand RAG idea: chunk -> context -> answer.
+**Goal:** Understand RAG — chunk → context → answer. **Stack:** React + Express.
 
-**Time:** 2–4 hours | **Difficulty:** ★★★☆
+**Features**
+- Upload `.txt` → extract text
+- Split text into chunks
+- Ask a question → send relevant chunks + question
+- Answer grounded **only** in the file
 
-### Tech
-- React + Express
-- OpenRouter for embeddings + answer (keep simple)
-- `multer` for file upload
-- `pdf-parse` or plain text (start with `.txt`)
+**Simplified approach**
+1. Start with `.txt` only
+2. Split by `\n\n` or ~500-char chunks
+3. Prompt: *"Answer ONLY from the context. If not found, say 'Not found in document'."*
+4. Send context + question to the LLM
 
-### Features
-- Upload `.txt` file
-- Extract text -> split into chunks (simple: by newline/size)
-- Store chunks in memory (or array)
-- Ask question -> send relevant chunks + question to LLM
-- Return answer grounded in file
-
-### Simplified Approach (BEGINNER-FRIENDLY)
-1. Upload text only first (`.txt`)
-2. Split by `\n\n` or 400–600 char chunks
-3. On "Ask", build prompt: "Answer ONLY from context. If not found say 'Not found in document'"
-4. Send context + question to OpenRouter
-5. Show answer
-
-### Steps
-1. Backend: `multer` upload -> read file
-2. Chunking function
-3. `POST /api/upload`, `POST /api/ask`
-4. Frontend: upload form + Q&A box
-
-### Checkpoints
+**Checkpoints**
 - [ ] Upload works
-- [ ] Asks from uploaded text
-- [ ] Doesn't hallucinate outside file
-- [ ] Handles empty query
+- [ ] Answers come from the uploaded text
+- [ ] Doesn't hallucinate outside the file
 
-### Stretch
-- [ ] Support `.md` too
-- [ ] Show sources (which chunk used) – simple
+**Stretch:** support `.md` · show which chunk was used.
 
 ---
 
-## PROJECT 7: MINI AI TODO ASSISTANT (AGENT BASICS)
+## Project 7 — Mini AI Todo Agent
 
-**Goal:** Learn "tool use" idea. Agent routes to tools based on user intent.
+**Goal:** Tool use / agent basics. **Stack:** React + Express + OpenRouter.
 
-**Time:** 2–3 hours | **Difficulty:** ★★★☆
-
-### Tech
-- React + Express + OpenRouter
-
-### Tools (Simple)
+**Tools**
 - `add_task(title)`
 - `list_tasks()`
 - `mark_done(id)`
 - `clear_done()`
 
-### How it works
-1. User says: "Add buy milk"
-2. Send user message + available tools list to LLM with strict instruction
-3. LLM returns **JSON**: `{ "tool": "add_task", "args": {"title": "buy milk"} }`
-4. Backend executes that tool on in-memory array
+**How it works**
+1. User: *"Add buy milk"*
+2. Send message + tool list to LLM with strict instructions
+3. LLM returns JSON: `{ "tool": "add_task", "args": { "title": "buy milk" } }`
+4. Backend runs the tool on an in-memory list
 5. Return result + updated tasks
 
-### Steps
-1. In-memory `tasks = []` with ids
-2. Define tool schema in prompt
-3. `POST /api/agent` -> classify -> run tool -> respond
-4. Frontend: chat + tasks panel
-
-### Checkpoints
+**Checkpoints**
 - [ ] Adds task from natural language
-- [ ] Lists when asked
-- [ ] Marks done
-- [ ] Doesn't invent tools
-- [ ] JSON parsing safe
-
-### Stretch
-- [ ] Show reasoning (optional)
-- [ ] Handle multi-step? Keep single tool first
+- [ ] Lists / completes on request
+- [ ] Never invents tools
+- [ ] JSON parsing is safe
 
 ---
 
-## MILESTONES
+## Milestones
 
-| Milestone | Target | Done? |
+| Milestone | Target | ✔ |
 |---|---|---|
-| **M1** | Project 1–2 done + GitHub updated | [ ] |
-| **M2** | Project 3 done (React+TS) | [ ] |
-| **M3** | Project 4 done (Fullstack) – MAJOR | [ ] |
-| **M4** | Project 5 done (AI Chatbot) | [ ] |
-| **M5** | Project 6–7 done + Portfolio polished | [ ] |
+| **M1** | Projects 1–2 + first pushes | [ ] |
+| **M2** | Project 3 (React + TS) | [ ] |
+| **M3** | Project 4 (Fullstack) — first real FDE app | [ ] |
+| **M4** | Project 5 (AI Chatbot) | [ ] |
+| **M5** | Projects 6–7 + portfolio polish | [ ] |
 
-**ADVICE:** Build slow. Debug yourself first. Push after every project.
-
+> **Golden rule:** a working small project beats a half-finished big one. Ship, then improve.

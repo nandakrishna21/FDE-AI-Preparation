@@ -1,70 +1,69 @@
-# STUDY_RULES.md
+# Study Rules
 
-# STUDY_RULES.md
-
-Follow these strictly for next 90 days.
+> Read these once. Follow them for 90 days. They beat motivation.
 
 ---
 
-## 1) TIME & CONSISTENCY
-- **Follow blocks:** Stick to 05:00–18:00 as much as possible
-- **Minimum on bad days:** Do B1 (1–1.5h) + B2 (1–1.5h) + 15–20 min logs = **3–4 hours MINIMUM**
-- **Never miss 2 days in a row:** If you miss Day X, hit Day X+1 NO MATTER WHAT
-- **Energy > Clock:** Adjust slightly, don't kill motivation
-- **8–9 hours average** > 10 once a week
+## 1. Time & Consistency
+
+- **Follow the blocks.** 05:00–18:00 rhythm keeps both goals alive.
+- **Bad day protocol:** do Block 1 + Block 2 + 15 min logs = **3–4 hours minimum**.
+- **Never miss two days in a row.** One slip is fine. Two becomes a habit.
+- **Energy > clock.** Adjust, don't quit.
+- **Aim 8–9 hours average**, not 10 once a week.
 
 ---
 
-## 2) GOVT PREPARATION
-- **Overlap first:** Use same notes for SSC CGL + Bank + UPSC APFC
-- **Fix same day:** Every wrong MCQ goes to `ERROR_NOTEBOOK.md` with fix
-- **Weak-first:** Pick from `WEAK_TOPICS.md` in B3/B4
-- **PYQs daily:** Minimum 10–15, focus on accuracy first
-- **CA non-negotiable:** 20–25 min daily (PIB/AffairsCloud)
-- **Accuracy > Speed:** 80% correct at slow pace > 40% rushing
-- **Error Revision:** Revisit your own errors weekly, not new 1000
+## 2. Government Preparation
+
+- **Overlap first.** One set of notes for SSC + Bank + APFC.
+- **Fix the same day.** Every wrong answer → `ERROR_NOTEBOOK.md`.
+- **Weak-first.** Pick from `WEAK_TOPICS.md` in Blocks 3–4.
+- **PYQs daily.** 10–15 minimum.
+- **CA is non-negotiable.** 20–25 min PIB / AffairsCloud.
+- **Accuracy before speed.** 80% slow beats 40% fast.
 
 ---
 
-## 3) TECH (FDE + AI)
-- **Code > Watch:** 20% read, 80% type/build/debug
-- **Type every line:** Don't copy-paste blindly. Understand
-- **Build projects:** Follow `TECH_PROJECTS.md` in order
-- **Git daily:** Commit + push >=1 time/day
-- **Small wins:** Better to finish 1 tiny feature than read 5 chapters
-- **Debug yourself:** Read error, search logic, fix. Then ask/think
-- **No over-engineering:** Keep it minimal & working
-- **Run before push:** `npm run dev` / check in browser
+## 3. Tech (FDE + AI)
+
+- **Code > watch.** 20% input, 80% building.
+- **Type every line.** No blind copy-paste.
+- **Follow projects in order** (`TECH_PROJECTS.md`).
+- **Push daily.** Even a tiny change counts.
+- **Debug yourself first** — read the error, think, then ask.
+- **Keep it minimal.** Working > fancy.
 
 ---
 
-## 4) REVISION SYSTEM
-- **ERROR_NOTEBOOK:** Must fill for every mistake
-- **WEAK_TOPICS:** Update from errors every day
-- **Sunday Review:** Clean, sort, plan next week
-- **Spaced:** Revise weak items every 3–4 days
-- **Active recall:** Solve again, don't just re-read notes
+## 4. Revision System
+
+- Log every mistake in `ERROR_NOTEBOOK.md`.
+- Update `WEAK_TOPICS.md` from those errors every day.
+- Revise weak items every 3–4 days (spaced repetition).
+- Active recall — re-solve, don't re-read.
+- Sunday: clean, sort, plan next week.
 
 ---
 
-## 5) HEALTH & MINDSET
-- **Sleep:** 6–7 hours minimum (don't cut sleep for extra hour)
-- **Hydrate + eat:** Keep simple
-- **Breaks:** Use B2–B3 gap naturally. Don't overpush
-- **Progress > Perfection:** 70% done consistently beats 100% once
-- **Guilt-free:** Missed day? Reset next day. No self-shaming
-- **Focus on 21 days:** Make it automatic first
-- **Notifications coming:** Your only job is readiness through consistency
+## 4. Health & Mindset
+
+- **Sleep 6–7h minimum.** Don't trade sleep for an extra hour.
+- **Hydrate + eat simple.**
+- **Take breaks** between blocks.
+- **Progress > perfection.** 70% consistently > 100% once.
+- **No guilt.** Missed a day? Reset next day, no self-punishment.
+- **Focus on 21 days.** Make it automatic before judging results.
 
 ---
 
-## 6) GOLDEN COMMANDMENTS
-1. **Fix it today, not "someday"**
-2. **Push something daily**
-3. **Log honestly**
-4. **Work weak areas, not just strong ones**
-5. **Code every day, solve MCQs every day**
-6. **Quality reps > quantity of hours with zero focus**
+## 4. Golden Commandments
 
-**IF IN DOUBT:** Open `DAILY_TASK_TEMPLATE.md` and do the next unchecked item.
+1. Fix it today, not "someday"
+- [ ] Push something daily
+- [ ] Log honestly
+- [ ] Work weak areas, not just strong ones
+- [ ] Code every day, solve MCQs every day
+- [ ] Quality reps > unfocused hours
 
+> **If in doubt:** open `DAILY_TASK_TEMPLATE.md` and do the next unchecked item.

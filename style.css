@@ -750,3 +750,92 @@ body {
     align-items: center;
     gap: 0.5rem;
 }
+
+/* ===== Theme Toggle ===== */
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.theme-toggle {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.25s ease;
+}
+
+.theme-toggle:hover {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+    transform: rotate(15deg);
+}
+
+/* ===== Dark Theme ===== */
+[data-theme="dark"] {
+    --primary: #60a5fa;
+    --primary-dark: #3b82f6;
+    --secondary: #94a3b8;
+    --accent: #34d399;
+    --bg: #0b1220;
+    --bg-alt: #111c2e;
+    --text: #e8eef7;
+    --text-light: #9fb0c7;
+    --border: #263449;
+    --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.5);
+    --shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.6);
+}
+
+[data-theme="dark"] body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+[data-theme="dark"] .navbar {
+    background: rgba(11, 18, 32, 0.9);
+    border-bottom-color: var(--border);
+}
+
+[data-theme="dark"] .hero {
+    background: linear-gradient(135deg, #0f1b30 0%, #0b1220 100%);
+}
+
+[data-theme="dark"] .timeblock-card,
+[data-theme="dark"] .phase-card,
+[data-theme="dark"] .subject-card,
+[data-theme="dark"] .stack-card,
+[data-theme="dark"] .project-card,
+[data-theme="dark"] .tracker-card,
+[data-theme="dark"] .resource-category {
+    background: #111c2e;
+    border-color: var(--border);
+}
+
+[data-theme="dark"] .btn-secondary {
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+[data-theme="dark"] .btn-secondary:hover {
+    background: var(--primary);
+    color: #0b1220;
+}
+
+[data-theme="dark"] .priority.high { background: #4c1d24; color: #fca5a5; }
+[data-theme="dark"] .priority.medium { background: #4a3410; color: #fcd34d; }
+[data-theme="dark"] .difficulty.easy { background: #134e36; color: #6ee7b7; }
+[data-theme="dark"] .difficulty.medium { background: #12384f; color: #7dd3fc; }
+[data-theme="dark"] .difficulty.hard { background: #4a3410; color: #fcd34d; }
+
+[data-theme="dark"] .markdown-body table tr:hover { background: #16233a; }
+[data-theme="dark"] .docs-nav button:hover { background: #16233a; }

@@ -1,7 +1,7 @@
-/* Docs / Mentor Files Viewer */
+/* ===== Mentor Files Viewer ===== */
 .docs-layout {
     display: flex;
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 0 auto;
     padding-top: 70px;
     min-height: 100vh;
@@ -13,25 +13,37 @@
     flex-shrink: 0;
     background: var(--bg-alt);
     border-right: 1px solid var(--border);
-    padding: 1.5rem 1rem;
-    position: sticky;
+    padding: 1.75rem 1rem;
+    position: fixed;
     top: 70px;
-    height: calc(100vh - 70px);
+    bottom: 0;
     overflow-y: auto;
 }
 
+.docs-layout {
+    /* reserve sidebar space */
+    padding-left: 300px;
+}
+
 .sidebar-header {
-    margin-bottom: 1rem;
-    padding: 0 0.5rem;
+    padding: 0 0.5rem 1rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
 }
 
 .sidebar-header h3 {
-    font-size: 1.05rem;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    color: var(--text);
+    margin-bottom: 0.35rem;
+}
+
+.sidebar-header h3 i {
     color: var(--primary);
-    margin-bottom: 0.25rem;
 }
 
 .sidebar-header p {
@@ -42,54 +54,55 @@
 .docs-nav {
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 0.2rem;
 }
 
 .docs-nav-btn {
     display: flex;
     align-items: center;
-    gap: 0.625rem;
+    gap: 0.7rem;
     width: 100%;
-    text-align: left;
-    background: none;
+    padding: 0.6rem 0.75rem;
+    background: transparent;
     border: none;
-    padding: 0.65rem 0.75rem;
     border-radius: 8px;
     cursor: pointer;
     font-family: inherit;
-    font-size: 0.875rem;
-    color: var(--text);
+    font-size: 0.9rem;
     font-weight: 500;
-    transition: all 0.2s ease;
+    color: var(--text-light);
+    text-align: left;
+    transition: background 0.2s ease, color 0.2s ease;
 }
 
-.docs-nav .file-icon {
-    font-size: 0.95rem;
-    color: var(--secondary);
+.docs-nav-btn .file-icon {
     width: 18px;
     text-align: center;
-    transition: color 0.2s ease;
+    font-size: 0.9rem;
+    color: var(--secondary);
 }
 
-.docs-nav button:hover {
-    background: white;
-    box-shadow: var(--shadow);
+.docs-nav-btn:hover {
+    background: var(--bg);
+    color: var(--text);
 }
 
-.docs-nav button.active {
+.docs-nav-btn.active {
     background: var(--primary);
-    color: white;
+    color: #fff;
 }
 
-.docs-nav button.active .file-icon {
-    color: white;
+.docs-nav-btn.active .file-icon {
+    color: #fff;
 }
 
-/* Content */
+/* Content column */
 .docs-content {
     flex: 1;
-    padding: 2rem 2.5rem;
     min-width: 0;
+    padding: 3rem 3rem 5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .sidebar-toggle {
@@ -97,189 +110,263 @@
     align-items: center;
     gap: 0.5rem;
     background: var(--primary);
-    color: white;
+    color: #fff;
     border: none;
     padding: 0.6rem 1rem;
     border-radius: 8px;
     font-weight: 600;
+    font-size: 0.9rem;
     cursor: pointer;
     margin-bottom: 1.5rem;
-    font-size: 0.9rem;
+}
+
+/* Document shell */
+.markdown-body {
+    width: 100%;
+    max-width: 860px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 2.5rem 2.75rem;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--text);
 }
 
 .loading {
     text-align: center;
     padding: 4rem 0;
     color: var(--text-light);
+    border: none;
 }
 
 .loading i {
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: var(--primary);
     margin-bottom: 1rem;
+    display: block;
 }
 
-/* Markdown rendering */
-.markdown-body {
-    max-width: 900px;
-    line-height: 1.7;
-    color: var(--text);
-    animation: fadeIn 0.3s ease;
+/* File name header */
+.doc-filename {
+    font-size: 0.8rem !important;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--primary);
+    margin-bottom: 2rem !important;
+    padding: 0.5rem 0 1.25rem !important;
+    border-bottom: 1px solid var(--border) !important;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(8px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
+/* Headings */
 .markdown-body h1 {
-    font-size: 2rem;
-    margin: 0 0 1.5rem;
-    padding-bottom: 0.75rem;
-    border-bottom: 2px solid var(--primary);
-    color: var(--text);
+    font-size: 1.9rem;
+    line-height: 1.3;
+    font-weight: 700;
     letter-spacing: -0.02em;
+    color: var(--text);
+    margin: 0 0 1.25rem;
+}
+
+.markdown-body h1:first-child {
+    margin-top: 0;
 }
 
 .markdown-body h2 {
-    font-size: 1.5rem;
-    margin: 2.5rem 0 1rem;
-    color: var(--primary);
-    padding-bottom: 0.4rem;
-    border-bottom: 1px solid var(--border);
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--text);
+    margin: 2.75rem 0 1rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid var(--border);
+    scroll-margin-top: 90px;
 }
 
-.docs-content h3 {
+.markdown-body h2::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 1.05rem;
+    background: var(--primary);
+    border-radius: 3px;
+    margin-right: 0.6rem;
+    vertical-align: -2px;
+}
+
+.markdown-body h3 {
     font-size: 1.2rem;
-    margin: 1.75rem 0 0.75rem;
+    font-weight: 700;
     color: var(--text);
+    margin: 2rem 0 0.75rem;
+    padding-left: 0.85rem;
+    border-left: 3px solid var(--primary);
 }
 
 .markdown-body h4 {
-    font-size: 1.05rem;
-    margin: 1.25rem 0 0.5rem;
-    color: var(--text-light);
+    font-size: 1.02rem;
+    font-weight: 600;
+    color: var(--text);
+    margin: 1.4rem 0 0.5rem;
 }
 
 .markdown-body p {
-    margin-bottom: 1rem;
+    margin-bottom: 1.1rem;
     color: var(--text-light);
+}
+
+.markdown-body strong {
+    color: var(--text);
+    font-weight: 600;
 }
 
 .markdown-body ul,
 .markdown-body ol {
-    margin: 0 0 1rem 1.5rem;
+    margin: 0 0 1.25rem 0;
+    padding-left: 1.4rem;
     color: var(--text-light);
 }
 
 .markdown-body li {
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0.15rem;
+}
+
+.markdown-body li::marker {
+    color: var(--primary);
+    font-weight: 700;
 }
 
 .markdown-body a {
     color: var(--primary);
     text-decoration: none;
-    border-bottom: 1px dashed var(--primary);
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
 }
 
 .markdown-body a:hover {
-    border-bottom-style: solid;
-}
-
-.markdown-body code {
-    background: #f1f5f9;
-    color: #be123c;
-    padding: 0.15rem 0.4rem;
-    border-radius: 4px;
-    font-size: 0.85em;
-    font-family: 'Consolas', 'Monaco', monospace;
-}
-
-.markdown-body pre {
-    background: #0f172a;
-    color: #e2e8f0;
-    padding: 1.25rem;
-    border-radius: 10px;
-    overflow-x: auto;
-    margin-bottom: 1.25rem;
-}
-
-.markdown-body pre code {
-    background: none;
-    color: inherit;
-    padding: 0;
-    font-size: 0.85rem;
-}
-
-.markdown-body blockquote {
-    border-left: 4px solid var(--primary);
-    background: var(--bg-alt);
-    padding: 0.75rem 1.25rem;
-    margin: 1rem 0;
-    border-radius: 0 8px 8px 0;
-    font-style: italic;
-}
-
-.markdown-body blockquote p {
-    margin-bottom: 0;
+    border-bottom-color: var(--primary);
 }
 
 .markdown-body hr {
     border: none;
     border-top: 1px solid var(--border);
-    margin: 2rem 0;
+    margin: 2.5rem 0;
 }
 
+/* Inline code */
+.markdown-body code {
+    background: var(--bg-alt);
+    color: #e11d48;
+    padding: 0.15rem 0.45rem;
+    border-radius: 6px;
+    font-size: 0.86em;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    border: 1px solid var(--border);
+}
+
+[data-theme="dark"] .markdown-body code {
+    color: #f9a8d4;
+}
+
+/* Code blocks */
+.markdown-body pre {
+    background: #0b1220;
+    border: 1px solid var(--border);
+    padding: 1.25rem 1.4rem;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 0 0 1.4rem;
+    line-height: 1.6;
+}
+
+.markdown-body pre code {
+    background: none;
+    border: none;
+    color: #93c5fd;
+    padding: 0;
+    font-size: 0.85rem;
+}
+
+/* Blockquote callout */
+.markdown-body blockquote {
+    background: var(--bg-alt);
+    border-left: 4px solid var(--primary);
+    border-radius: 0 10px 10px 0;
+    padding: 1rem 1.4rem;
+    margin: 0 0 1.4rem;
+    color: var(--text-light);
+    font-style: italic;
+}
+
+.markdown-body blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+/* Tables */
 .markdown-body table {
     width: 100%;
-    border-collapse: collapse;
-    margin: 1rem 0 1.5rem;
-    font-size: 0.9rem;
-    display: block;
-    overflow-x: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 0 0 1.6rem;
+    font-size: 0.92rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    display: table;
+}
+
+.markdown-body table thead {
+    background: var(--primary);
 }
 
 .markdown-body table th {
-    background: var(--primary);
-    color: white;
-    padding: 0.625rem 0.75rem;
-    text-align: left;
+    color: #fff;
     font-weight: 600;
+    text-align: left;
+    padding: 0.7rem 0.9rem;
     white-space: nowrap;
 }
 
 .markdown-body table td {
-    padding: 0.55rem 0.75rem;
-    border-bottom: 1px solid var(--border);
+    padding: 0.65rem 0.9rem;
+    border-top: 1px solid var(--border);
     color: var(--text-light);
 }
 
-.markdown-body table tr:nth-child(even) {
+.markdown-body table tbody tr:nth-child(even) {
     background: var(--bg-alt);
 }
 
-.markdown-body table tr:hover {
-    background: #eff6ff;
+.markdown-body table tbody tr:hover {
+    background: color-mix(in srgb, var(--primary) 8%, transparent);
 }
 
-.markdown-body blockquote,
-.markdown-body table {
-    overflow-x: auto;
+/* Wide tables scroll gracefully on mobile */
+@media (max-width: 700px) {
+    .markdown-body table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
 }
 
-/* Responsive */
-@media (max-width: 900px) {
+/* ===== Responsive ===== */
+@media (max-width: 960px) {
     .docs-layout {
-        flex-direction: column;
+        padding-left: 0;
     }
 
     .docs-sidebar {
         position: fixed;
         left: -320px;
-        top: 70px;
+        width: 300px;
         z-index: 900;
         transition: left 0.3s ease;
-        width: 300px;
         box-shadow: var(--shadow-lg);
     }
 
@@ -292,17 +379,24 @@
     }
 
     .docs-content {
-        padding: 1.5rem 1.25rem;
+        padding: 1.75rem 1.25rem 4rem;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .markdown-body {
+        padding: 1.75rem 1.5rem;
     }
 }
 
 @media (max-width: 480px) {
-    .docs-sidebar {
-        width: 85%;
-        left: -90%;
-    }
-
     .markdown-body {
         font-size: 0.95rem;
+        padding: 1.4rem 1.1rem;
+        border-radius: 10px;
+    }
+
+    .doc-filename {
+        font-size: 0.72rem !important;
     }
 }

@@ -1,105 +1,105 @@
-# RESOURCE_HUB.md
+# Resource Hub — Free Only
 
-# RESOURCE HUB (FREE ONLY)
+> Every link here is **free**. No paid dumps. Bookmark this file — it is your single source of truth for both tracks.
 
-All links grouped for SSC CGL + All Bank Exams + UPSC APFC + FDE + AI. Use these daily.
-
----
-
-## A) GOVT EXAMS (CORE + PRACTICE)
-
-### Syllabus & Official
-| Link | Purpose |
-|---|---|
-| [ssc.gov.in](https://ssc.gov.in/) | SSC CGL Official – Syllabus/Notifications |
-| [ibps.in](https://www.ibps.in/) | IBPS PO/Clerk/SO – Check pattern & syllabus |
-| [sbi.co.in/careers](https://sbi.co.in/web/careers) | SBI Clerk/PO Notifications |
-| [upsc.gov.in](https://www.upsc.gov.in/) | UPSC APFC – Official syllabus & notifications |
-
-### Foundation (NCERT + Polity)
-| Link | Purpose |
-|---|---|
-| [ncert.nic.in](https://ncert.nic.in/) | Class 6–10 NCERTs – History/Geo/Civics/Economy basics |
-| [PRS India](https://prsindia.org/) | Indian Polity – Articles, Amendments, Bills – very clear |
-| [Constitution of India (Summary)](https://www.constitutionofindia.net/) | Quick revision of key parts/Articles |
-
-### Current Affairs (Daily 20–25 min)
-| Link | Purpose |
-|---|---|
-| [PIB India](https://www.pib.gov.in/) | Govt Schemes, Bills, Updates – Must-read |
-| [AffairsCloud (Free)](https://affairscloud.com/) | Daily + Monthly CA in exam form |
-| [JagranJosh Exams](https://www.jagranjosh.com/exams) | CA + PYQs + Exam-wise updates |
-
-### Quant, Reasoning, English
-| Link | Purpose |
-|---|---|
-| [GeeksforGeeks – Aptitude](https://www.geeksforgeeks.org/aptitude-questions-and-answers/) | Concept -> Example -> Practice |
-| [GeeksforGeeks – Logical Reasoning](https://www.geeksforgeeks.org/logical-reasoning/) | Topic-wise from basics to advanced |
-| [GeeksforGeeks – Verbal Ability](https://www.geeksforgeeks.org/verbal-ability/) | Error Spotting, RC, Para Jumbles |
-| [EnglishGrammar.org](https://www.englishgrammar.org/) | Grammar + Exercises (free) |
-| [Testbook – Free Aptitude Practice](https://testbook.com/aptitude-practice) | Extra practice with timer feel |
-
-### PYQs, Mocks & Quizzes
-| Link | Purpose |
-|---|---|
-| [JagranJosh PYQs](https://www.jagranjosh.com/exams) | SSC/Bank/APFC-relevant PYQs |
-| [ixamBee – Free Mock Tests](https://www.ixambee.com/free-mock-tests) | Timed mocks (use weekly) |
-| [Adda247 – Free Exams Section](https://www.adda247.com/exams/) | Topic-wise + quizzes |
-| [Adda247 – Quizzes](https://www.adda247.com/quiz/) | Quick 5–10 min revision |
+**How to use:** Pick the resource for the topic you're studying today. Don't collect — consume one at a time.
 
 ---
 
-## B) FDE + AI ENGINEERING (FROM ABSOLUTE ZERO)
+## A. Government Exams
 
-### Git, CLI & Setup
-| Link | Purpose |
-|---|---|
-| [learngitbranching.js.org](https://learngitbranching.js.org) | Visual Git – master add/commit/branch/push |
-| [GitHub – Git Handbook](https://docs.github.com/en/get-started/using-git/about-git) | Clear theory + commands |
-| [MDN – Command Line Basics](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line) | CLI confidence for beginners |
+### A1. Official Syllabus & Notifications
+| Resource | Link | Use For |
+|---|---|---|
+| SSC | [ssc.gov.in](https://ssc.gov.in/) | CGL syllabus, notifications, calendar |
+| IBPS | [ibps.in](https://www.ibps.in/) | PO / Clerk / SO pattern & syllabus |
+| SBI | [sbi.co.in/web/careers](https://sbi.co.in/web/careers) | Clerk / PO notifications |
+| UPSC | [upsc.gov.in](https://www.upsc.gov.in/) | APFC syllabus & notifications |
 
-### HTML, CSS, JS, TypeScript
-| Link | Purpose |
-|---|---|
-| [MDN Web Docs](https://developer.mozilla.org/en-US/) | Go-to for HTML/CSS/JS – read + try |
-| [JavaScript.info](https://javascript.info/) | Stepwise JS from zero – highly recommended |
-| [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) | Learn types gradually after JS |
-| [freeCodeCamp – Front End Dev Libraries](https://www.freecodecamp.org/learn/front-end-development-libraries/) | Project-style practice |
+### A2. Foundation (Concept Building)
+| Resource | Link | Use For |
+|---|---|---|
+| NCERT | [ncert.nic.in](https://ncert.nic.in/) | Class 6–10: History, Geo, Civics, Economy |
+| PRS India | [prsindia.org](https://prsindia.org/) | Polity, bills, amendments |
+| Constitution | [constitutionofindia.net](https://www.constitutionofindia.net/) | Key Articles & Parts revision |
 
-### React + Vite + Backend
-| Link | Purpose |
-|---|---|
-| [React – Learn Docs](https://react.dev/learn) | Modern React (hooks-focused) |
-| [Vite – Getting Started](https://vitejs.dev/guide/) | Fast setup explained |
-| [MDN – Express/Node.js](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs) | Beginner backend path |
-| [Express.js Docs](https://expressjs.com/) | API routes, middleware, basics |
-| [W3Schools SQL](https://www.w3schools.com/sql/) | SQL from scratch |
-| [SQLBolt](https://sqlbolt.com/) | Interactive SQL lessons |
+### A3. Current Affairs (Daily 20–25 min)
+| Resource | Link | Use For |
+|---|---|---|
+| PIB | [pib.gov.in](https://www.pib.gov.in/) | Official govt news — highest priority |
+| AffairsCloud | [affairscloud.com](https://affairscloud.com/) | Daily + monthly CA in exam format |
+| JagranJosh | [jagranjosh.com/exams](https://www.jagranjosh.com/exams) | CA + PYQs |
 
-### AI Engineering (Pragmatic)
-| Link | Purpose |
-|---|---|
-| [LearnPrompting.org](https://learnprompting.org/) | Prompting, roles, R-T-C-O-E style, zero fluff |
-| [HuggingFace Course](https://huggingface.co/learn) | Free, hands-on AI intro |
-| [OpenRouter](https://www.openrouter.ai/) | Free-ish API to call many LLMs |
-| [Anthropic – Agents & Tools](https://docs.anthropic.com/claude/docs/agents-and-tools) | Simple agent mental model |
-| [LangChain – Concepts](https://python.langchain.com/docs/concepts/) | Read only concepts, don't overuse library |
-| [modelcontextprotocol.io](https://modelcontextprotocol.io/introduction) | MCP basics (light from Day 76+) |
+### A4. Quant, Reasoning, English
+| Subject | Resource | Link |
+|---|---|---|
+| Quant | GeeksforGeeks Aptitude | [Link](https://www.geeksforgeeks.org/aptitude-questions-and-answers/) |
+| Reasoning | GeeksforGeeks Logical Reasoning | [Link](https://www.geeksforgeeks.org/logical-reasoning/) |
+| English | EnglishGrammar.org | [Link](https://www.englishgrammar.org/) |
+| English | GeeksforGeeks Verbal Ability | [Link](https://www.geeksforgeeks.org/verbal-ability/) |
+| Quant | Testbook Free Practice | [Link](https://testbook.com/aptitude-practice) |
 
-### Roadmaps (Checklist Only)
-| Link | Purpose |
-|---|---|
-| [roadmap.sh/full-stack](https://roadmap.sh/full-stack) | Tick done topics weekly |
-| [roadmap.sh/ai-engineer](https://roadmap.sh/ai-engineer) | Cross-check AI path |
+### A5. Practice & Mocks
+| Resource | Link | Use For |
+|---|---|---|
+| JagranJosh PYQs | [Link](https://www.jagranjosh.com/exams) | Previous year questions |
+| ixamBee Mocks | [Link](https://www.ixambee.com/free-mock-tests) | Weekly timed mocks |
+| Adda247 Quizzes | [Link](https://www.adda247.com/quiz/) | Quick 10-min revision |
 
 ---
 
-## C) DAILY MINIMUM SET
+## B. FDE + AI Engineering
 
-- **Govt AM:** 20–25 min Current Affairs + 5–10 PYQs
-- **Tech:** Push to GitHub (minimum 1 commit)
-- **Fix:** Add >=1 item to ERROR_NOTEBOOK if any mistake
-- **Revise:** Scan WEAK_TOPICS.md for 5–10 min in Block 4
+### B1. Setup & Git
+| Resource | Link | Use For |
+|---|---|---|
+| LearnGitBranching | [learngitbranching.js.org](https://learngitbranching.js.org) | Visual Git — start here |
+| Git Handbook | [docs.github.com](https://docs.github.com/en/get-started/using-git/about-git) | Commands & theory |
+| MDN CLI Basics | [Link](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line) | Terminal confidence |
 
-**RULE:** Don't read everything. Pick for that day's task & finish it.
+### B2. HTML · CSS · JS · TypeScript
+| Resource | Link | Use For |
+|---|---|---|
+| MDN Web Docs | [developer.mozilla.org](https://developer.mozilla.org/en-US/) | HTML/CSS/JS reference |
+| JavaScript.info | [javascript.info](https://javascript.info/) | Best stepwise JS from zero |
+| TypeScript Handbook | [Link](https://www.typescriptlang.org/docs/handbook/intro.html) | Types after JS |
+| freeCodeCamp | [Link](https://www.freecodecamp.org/learn/front-end-development-libraries/) | Project practice |
 
+### B3. React · Backend · Database
+| Resource | Link | Use For |
+|---|---|---|
+| React Learn | [react.dev/learn](https://react.dev/learn) | Modern hooks-based React |
+| Vite Guide | [vitejs.dev/guide](https://vitejs.dev/guide/) | Project setup |
+| MDN Express | [Link](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs) | Beginner backend |
+| Express Docs | [expressjs.com](https://expressjs.com/) | Routing, middleware |
+| W3Schools SQL | [Link](https://www.w3schools.com/sql/) | SQL from scratch |
+| SQLBolt | [sqlbolt.com](https://sqlbolt.com/) | Interactive SQL |
+
+### B4. AI Engineering
+| Resource | Link | Use For |
+|---|---|---|
+| LearnPrompting | [learnprompting.org](https://learnprompting.org/) | Prompting fundamentals |
+| HuggingFace Course | [huggingface.co/learn](https://huggingface.co/learn) | Hands-on AI intro |
+| OpenRouter | [openrouter.ai](https://www.openrouter.ai/) | Call LLMs via one API |
+| Agents & Tools | [docs.anthropic.com](https://docs.anthropic.com/claude/docs/agents-and-tools) | Agent mental model |
+| MCP | [modelcontextprotocol.io](https://modelcontextprotocol.io/introduction) | Tool protocol (Day 76+) |
+
+### B5. Roadmaps (Checklist only — don't rush)
+| Resource | Link |
+|---|---|
+| Full-Stack Roadmap | [roadmap.sh/full-stack](https://roadmap.sh/full-stack) |
+| AI Engineer Roadmap | [roadmap.sh/ai-engineer](https://roadmap.sh/ai-engineer) |
+
+---
+
+## C. Daily Minimum Set
+
+| Time | Action |
+|---|---|
+| 20 min | Current Affairs + 10 MCQs |
+| 25 min | Read one tech concept + type the code |
+| 15 min | Fix wrong answers → `ERROR_NOTEBOOK.md` |
+| 10 min | Revision scan → `WEAK_TOPICS.md` |
+| 5 min | Push to GitHub + `DAILY_LOG.md` |
+
+> **Rule:** One resource at a time. Finish, don't collect.
