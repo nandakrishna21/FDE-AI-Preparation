@@ -12,7 +12,8 @@ const FILES = [
     { file: 'WEAK_TOPICS.md',           label: 'Weak Topics',         icon: 'fa-list-ul' },
     { file: 'DAILY_LOG.md',             label: 'Daily Log',           icon: 'fa-book' },
     { file: 'STUDY_RULES.md',           label: 'Study Rules',         icon: 'fa-check-circle' },
-    { file: 'RESOURCE_HUB.md',          label: 'Resource Hub',        icon: 'fa-link' }
+    { file: 'RESOURCE_HUB.md',          label: 'Resource Hub',        icon: 'fa-link' },
+    { file: 'FREE_RESOURCES.md',        label: 'Free YouTube + Sites', icon: 'fa-graduation-cap' }
 ];
 
 const navEl = document.getElementById('docs-nav');

@@ -84,7 +84,26 @@
 | Agents & Tools | [docs.anthropic.com](https://docs.anthropic.com/claude/docs/agents-and-tools) | Agent mental model |
 | MCP | [modelcontextprotocol.io](https://modelcontextprotocol.io/introduction) | Tool protocol (Day 76+) |
 
-### B5. Roadmaps (Checklist only — don't rush)
+### B5. Free YouTube Channels (all free)
+| Stack | Channel | Link |
+|---|---|---|
+| Frontend | freeCodeCamp.org | [youtube.com/@freecodecamp](https://www.youtube.com/@freecodecamp) |
+| Frontend | Kevin Powell | [youtube.com/@KevinPowell](https://www.youtube.com/@KevinPowell) |
+| Frontend | The Net Ninja | [youtube.com/@NetNinja](https://www.youtube.com/@NetNinja) |
+| Frontend | Codevolution | [youtube.com/@Codevolution](https://www.youtube.com/@Codevolution) |
+| Frontend | Web Dev Simplified | [youtube.com/@WebDevSimplified](https://www.youtube.com/@WebDevSimplified) |
+| Backend | Traversy Media | [youtube.com/@TraversyMedia](https://www.youtube.com/@TraversyMedia) |
+| Backend | The Net Ninja (Node) | [youtube.com/@NetNinja](https://www.youtube.com/@NetNinja) |
+| Database | Programming with Mosh (SQL) | [youtube.com/@programmingwithmosh](https://www.youtube.com/@programmingwithmosh) |
+| Database | Alex The Analyst (SQL) | [youtube.com/@AlexTheAnalyst](https://www.youtube.com/@AlexTheAnalyst) |
+| AI | freeCodeCamp (LLM/RAG) | [youtube.com/@freecodecamp](https://www.youtube.com/@freecodecamp) |
+| AI | Krish Naik (RAG/LLM) | [youtube.com/@krishnaik06](https://www.youtube.com/@krishnaik06) |
+| AI | Andrej Karpathy | [youtube.com/@AndrejKarpathy](https://www.youtube.com/@AndrejKarpathy) |
+| AI | 3Blue1Brown | [youtube.com/@3blue1brown](https://www.youtube.com/@3blue1brown) |
+
+> **Full curated list with websites:** see [`FREE_RESOURCES.md`](FREE_RESOURCES.md).
+
+### B6. Roadmaps (Checklist only — don't rush)
 | Resource | Link |
 |---|---|
 | Full-Stack Roadmap | [roadmap.sh/full-stack](https://roadmap.sh/full-stack) |
