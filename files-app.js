@@ -1,6 +1,7 @@
 // Mentor Files Viewer
 const FILES = [
     { file: 'MASTER_ROADMAP.md',        label: 'Master Roadmap',      icon: 'fa-map' },
+    { file: '60_DAY_PLAN.md',           label: '60-Day Plan',         icon: 'fa-calendar-days' },
     { file: 'WEEK_01_PLAN.md',          label: 'Week 01 Plan',        icon: 'fa-calendar-week' },
     { file: 'DAY_1_ACTION_PLAN.md',     label: 'Day 1 Action Plan',   icon: 'fa-play-circle' },
     { file: 'DAILY_TASK_TEMPLATE.md',   label: 'Daily Task Template', icon: 'fa-clipboard-list' },

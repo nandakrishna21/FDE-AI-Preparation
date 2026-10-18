@@ -25,6 +25,7 @@ Then visit: `https://nandakrishna21.github.io/FDE-AI-Preparation/`
 | `RESOURCE_HUB.md` | All free links (Govt + FDE+AI) |
 | `GOVT_SYLLABUS_SUMMARY.md` | Overlap syllabus for all 3 exams |
 | `TECH_PROJECTS.md` | 7 projects with steps |
+| `60_DAY_PLAN.md` | Day 1–60 full execution plan |
 | `WEEK_01_PLAN.md` | Day 1–7 detailed tasks |
 | `DAILY_TASK_TEMPLATE.md` | Reuse every day |
 | `PROGRESS_TRACKER.md` | 90-day checklist + streak |
